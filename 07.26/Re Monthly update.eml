@@ -1,0 +1,3680 @@
+Received: from IA0PPFF463B9711.namprd19.prod.outlook.com
+ (2603:10b6:20f:fc04::ce0) by PH9PR19MB508617.namprd19.prod.outlook.com with
+ HTTPS; Mon, 10 Aug 2026 15:03:05 +0000
+Received: from MW5PR19MB5604.namprd19.prod.outlook.com (2603:10b6:303:194::7)
+ by IA0PPFF463B9711.namprd19.prod.outlook.com (2603:10b6:20f:fc04::ce0) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.292.25; Mon, 10 Aug
+ 2026 15:03:01 +0000
+Received: from MW5PR19MB5604.namprd19.prod.outlook.com
+ ([fe80::70bc:9491:d89d:c379]) by MW5PR19MB5604.namprd19.prod.outlook.com
+ ([fe80::70bc:9491:d89d:c379%6]) with mapi id 15.21.0292.024; Mon, 10 Aug 2026
+ 15:03:01 +0000
+From: Audrey Verrette <averrette@athena-pm.com>
+To: Gregory Ogin <gogin@svn.com>
+CC: Danielle Cebrero <DCebrero@athena-pm.com>
+Subject: Re: Monthly update
+Thread-Topic: Monthly update
+Thread-Index: AQHdKFTNtzaeRJE4C0qt5TqsamO46baXYdnt
+Date: Mon, 10 Aug 2026 15:03:00 +0000
+Message-ID:
+	<MW5PR19MB56044D74506B7600D8704C40E0DE2@MW5PR19MB5604.namprd19.prod.outlook.com>
+References:
+	<CAHsg8RpPaJnuLbx9CUpp2p3Y3eWf75GAdmhxiFBsWjKMEceJQw@mail.gmail.com>
+In-Reply-To:
+	<CAHsg8RpPaJnuLbx9CUpp2p3Y3eWf75GAdmhxiFBsWjKMEceJQw@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MW5PR19MB5604.namprd19.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	2c16b2c5-4d73-48c3-dfb4-08def6f078b8
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=athena-pm.com;
+x-ms-office365-filtering-correlation-id: 2c16b2c5-4d73-48c3-dfb4-08def6f078b8
+x-ms-traffictypediagnostic:
+	MW5PR19MB5604:EE_|IA0PPFF463B9711:EE_|PH9PR19MB508617:EE_
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MW5PR19MB5604.namprd19.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(69100299015)(366016)(31052699007)(39142699007)(3109299003)(7049299003)(6049299003)(23010399003)(13003099007)(55112099003)(22082099003)(18002099003)(10067099003)(56012099006)(8096899003)(41050700001);DIR:INT;
+x-microsoft-antispam:
+	BCL:0;ARA:13230040|69100299015|366016|31052699007|39142699007|3109299003|7049299003|6049299003|23010399003|13003099007|55112099003|22082099003|18002099003|10067099003|56012099006|8096899003|41050700001;
+x-ms-exchange-crosstenant-network-message-id:
+	2c16b2c5-4d73-48c3-dfb4-08def6f078b8
+x-ms-exchange-crosstenant-originalarrivaltime: 10 Aug 2026 15:03:01.0504 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 41cfedf6-2529-48f1-8d7e-06fa9f973095
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	U0TUdH5s7PCbkonX2RCOjTcRmPFYS8RphLBPkxz4ql/LSoM46ssRCCg9VifwB52tRJZamxmENZlGFpgvrR0DOQ==
+x-ms-exchange-transport-crosstenantheadersstamped: IA0PPFF463B9711
+x-ms-exchange-transport-endtoendlatency: 00:00:04.0643029
+x-ms-exchange-processed-by-bccfoldering: 15.21.0292.011
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-crosstenant-authsource: MW5PR19MB5604.namprd19.prod.outlook.com
+x-ms-exchange-atpmessageproperties: SA
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	6UvCWoOPkYZTRKjKKhWCNofIt02ujReq2RJbffmDXQbfTqNoTQLoopfcb3qOoM7dnsyX9syAI/zQhjuJSpB5gLB92eU1iCAj891Vz4yE7pDk3l4CPURXEtbGETTtGJpUCnQ6HcYJFSSLR5r4KfBQd0nrTct9xEgJ9We9s0qwpCoxIC89LOqAKLXhnA/Fk+aPeAq4PqtX2frZB0k6s/OJL9wdGHuU+1hZVL37cCWDorBINqhGxBo4FQKBy6WG2UJ3kZSJTnep1oaXCsnPdypYOJy7pP085zdKuFcsvZrIP4e3MT5IWeG9eTcX58IuhhF185VGGM4s4PdV5T+JdeuM7JfigNa8F8KGG4D4mig1W9r+UCmKPVvK2zpBgENSSwaZWj7QzHTZPrTx1pMcJvfojEkgIW1ZuFBjpfwodBokleBN+iVrJKSLQI5ccnWPOKCAmOEayJwpaav80sJQogRmLWNyyM57M6pUCgXWTzY8Qs5I2Dh3b20XMarRedVK9sXeVoLp446t+fLxetJ6Rft0zeteDe8dSCQDa7pNB90FbdNeHrPQJOQG4dQGYx1HJnfgHLq6j8ZXscIHgO2Oc4exxHQHz/c5lHVhwVM/gU7mAlr9kT65t7VDx258C74YZ/qu2PuJcExsg511bXQNM6NW8nnspGUPFr0HSdEqd8IkcDgn/Jq36ZNpbjNYlLJQlhg6PGFrTdlZ/O06ZyLgmB45hAx5HniAuvEYr21Hdo8yiu0FytSGflprdmc9Wnh5KJdfJTRzHDO0n0Ah/u9KzoYyoXwHBv9248xSh5EkeNMhoL1dTEeVO6s0zo1Qblcn6YK2
+Content-Type: multipart/related;
+	boundary="_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_"
+
+--_000_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks, Greg. Please send these to Danielle moving forward.
+
+[cid:46709a58-5f06-42f6-98fb-b8f6809318ea]
+
+Audrey Verrette | Property Manager
+
+Athena Property Management
+
+INTEGRITY | DEDICATION | VISION
+
+1365 Old Temescal Rd. Suite 102 Corona, CA 92881
+
+Phone: 949.398.8750
+
+www.athena-pm.com<https://urldefense.com/v3/__http://www.athena-pm.com/__;!=
+!LIr3w8kk_Xxm!p5tex1BQuJWbcuFE7B9XCjQvr8BiLF_hgc4Ed7QmW_XonAQJD8QDp81Ej0cU4=
+0YpWtkYn1Kqc-jwJ1X8tg$>
+
+DRE# 2122715
+
+[cid:b813d6d3-dc46-46d2-9902-0325f5e4262b]<https://www.facebook.com/AthenaP=
+ropManagement> [cid:66bd4f9f-12d3-4d5c-83e3-5fac13aa7cae] <https://www.link=
+edin.com/company/athena-property-management/>
+
+________________________________
+From: Gregory Ogin <gogin@svn.com>
+Sent: Sunday, August 9, 2026 4:14 PM
+To: Audrey Verrette <averrette@athena-pm.com>
+Subject: Monthly update
+
+
+External Email: Please Use Caution.
+
+
+Still not update from State on statistics.
+
+
+Property
+Coconut Grove Marketplace
+May     2026
+Total Visitors by Air
+May     2026
+No March or April info available for air traffic
+Tourism 2026    2025    % Change        2026 YTD        2025 YTD        % C=
+hange
+Hawai'i Island  137,156 130,213 5.3     N/A     729,624 N/A
+Kona side       122,308 114,552 6.8     N/A     643,908 N/A
+Hilo side       37,985  40,198  -5.5    N/A     233,191 N/A
+Hawai'i Island only     78,045  75,390  3.5     N/A     434,141 N/A
+Hawai'i Island one day or less  4,362   6,109   -28.6   N/A     35,775  N/A
+May             Occupancy %     Average Daily Rate      RevPAR
+Hotel Occupancy         2026    2025    Percentage Pt. Change   2026    202=
+5    % Change        2026    2025    % Change
+Hawaii Island   72.60%  74.20%  -1.60%  $475.61 $437.52 8.70%   $345.51 $32=
+4.78 6.40%
+Kohala Coast    73.40%  76.20%  -2.70%  $667.90 $593.31 12.60%  $490.40 $45=
+1.90 8.50%
+Note, data is delayed due processing issues in state.
+Tenant Issues
+1       Parking
+Parking complaints have been greatly reduced. Parking Ordinance have all be=
+en abandoned for now
+2       Humpies
+Humpies is going to put the Tenant Improvements ($50,000 Tenant TI) on hold=
+ till Humpies space is worked out.
+Humpies is on % rent only
+3
+Foster Kitchen Fire
+Fosters Kitchen had a fire on 7/2/2025. New roof to be on by 5/12/2026
+Fosters is planning on opeing in Oct 2026 but change orders may make late O=
+ctober or early November a new date.
+4       Crocs
+We have replaced ceiling tiles to keep track of any new leaks. Both Laverne=
+s and Crocs know we are following this issue
+5       Security
+Seurity late nite 10pm to 2 am is being addressed by adding 2 more Viking s=
+ecurity on Friday and Saturday to see if reduction in events will happen.
+Additional Parking seems to be having a positve effect on reducing incident=
+s!
+Waiting on approval to purchase golf cart for Security. Need to see if ther=
+e are insurance issues
+Comments
+Projects                        Start Date
+1
+Oceans Drainage
+TBD
+This project is on hold. Tenant is asking when will drainage be addressed
+2
+New Roof Lavernes
+TBD
+On hold. Tenant may be willing to build and get reimbursed
+3
+Elevator Lava Java
+8/1/2025
+Done but waiting on state permit
+Fire Extinguisher has been checked and corrected
+elevator permit
+4
+Parking Lot Sealing an Striping
+TBD
+Should have bid to do parking lot this week
+5
+Outback Building
+Getting bids for roof resealing and bids to repaint building
+6
+Concrete Curbing to be replace
+This has been completed.
+7       UIC Well        Bongo Bens
+Bids submitted to Athena for approval
+$25,000
+8       Fosters Kitchen         7/2/2025
+Roof is on and working towards Oct opening. Restaurant equipment is in Bong=
+o Bens
+Contracts have been submitted to rebuild
+9       Bongo Bens
+Using as storage for Fosters Kitchen equiptment
+10      Irrigation Issues
+We are replacing damaged irrigation areas so shrubs will grow.
+11      Bee infastation
+Seems to be gone at this point. Painted Trash cans to be delivered next wee=
+k.
+t
+12
+Project Sign Kuakini
+Quotes have been submitted for construction of monument sign
+Waiting for one more bid
+13
+Bids for repainting
+Property needs repainting in next year or two. Getting bids for planning pu=
+rposes
+Leasing
+1       Outback
+Chong Quin Hot Pot
+Tenant Rent to begin August 8,2026
+Plans still in for review
+Following up on structural plans
+2       Bongo Bens
+On hold on improvements to store Fosters Kitchen equiptment
+Have two prospects looking at space
+3       Lavernes
+Foster is very interested in takin over 6000 square feet of Lavernes. In ta=
+lks
+
+Gregory G. Ogin, CCIM, CPM | RB-16053 | Principal & Managing Director
+SVN | GO Commercial
+75-5722 Kuakini Highway, Suite 214 | Kailua-Kona, HI 96740
+808-329-6446 phone | 808-987-6446 cell
+gogin@svn.com<mailto:gogin@svn.com> | svn-go.com<http://svn-go.com/>  |  [F=
+acebook] <https://www.facebook.com/SVNGOCOM/>   |  [Twitter] <https://twitt=
+er.com/svngocom>   |  [linkedIn] <https://www.linkedin.com/company/svn-go>
+
+[https://s3.amazonaws.com/buildout-production/brandings/680/logo/original.p=
+ng]
+
+[https://s3.amazonaws.com/buildout-production/contacts/attachments/2407/aae=
+65d6481ae283137cc4022c26ef10f9ff3d4a4/original.jpg?1632933143]
+
+This email and any attachments to it may be confidential and are intended s=
+olely for the use of the individual to whom it is addressed. Any views or o=
+pinion expressed are solely those of the author and do not necessarily repr=
+esent those of SVNIC. This message may not be copied or distributed without=
+ this disclaimer. Please note that all SVN =AE Offices are independently ow=
+ned and operated.
+
+--_000_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+Thanks, Greg. Please send these to Danielle moving forward.&nbsp;</div>
+<div id=3D"Signature" class=3D"elementToProof">
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"background-color: rgb(255, 255, 255); margin: 0px;">
+<table id=3D"x_x_x_x_table_0" data-editing-info=3D"{&quot;topBorderColor&qu=
+ot;:&quot;#000000&quot;,&quot;bottomBorderColor&quot;:&quot;#000000&quot;,&=
+quot;verticalBorderColor&quot;:&quot;#000000&quot;,&quot;hasHeaderRow&quot;=
+:false,&quot;hasFirstColumn&quot;:false,&quot;hasBandedRows&quot;:false,&qu=
+ot;hasBandedColumns&quot;:false,&quot;bgColorEven&quot;:null,&quot;bgColorO=
+dd&quot;:&quot;#EEEEEE&quot;,&quot;headerRowColor&quot;:&quot;#ABABAB&quot;=
+,&quot;tableBorderFormat&quot;:0,&quot;verticalAlign&quot;:null}" style=3D"=
+text-align: left; text-indent: 0px; margin-bottom: 1px; box-sizing: border-=
+box; border-collapse: collapse; border-spacing: 0px;">
+<tbody>
+<tr>
+<td data-editing-info=3D"{&quot;vAlignOverride&quot;:true,&quot;borderOverr=
+ide&quot;:true}" style=3D"text-align: left; text-indent: 0px; vertical-alig=
+n: top; width: 102px; height: 22px; min-width: 15px; box-sizing: border-box=
+;">
+<div style=3D"text-align: left; text-indent: 0px; margin: 0px; font-family:=
+ Helvetica; font-size: 11pt; color: rgb(0, 0, 0);">
+<img style=3D"height: auto; max-width: 100%; min-width: auto; min-height: a=
+uto; margin: 0px;" size=3D"5911" data-outlook-trace=3D"F:4|T:4" src=3D"cid:=
+46709a58-5f06-42f6-98fb-b8f6809318ea"></div>
+</td>
+<td data-editing-info=3D"{&quot;borderOverride&quot;:true}" style=3D"text-a=
+lign: left; text-indent: 0px; width: 588px; height: 22px; min-width: 15px; =
+box-sizing: border-box;">
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 12pt; color: black;"><b>A=
+udrey Verrette
+</b>| Property Manager</span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 10pt; color: rgb(208, 175=
+, 33);"><b>Athena Property Management</b></span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 10pt; color: black;">INTE=
+GRITY | DEDICATION | VISION</span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 10pt; color: black;">1365=
+ Old Temescal Rd. Suite 102 Corona, CA 92881</span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 10pt; color: black;">Phon=
+e: 949.398.8750</span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; background-=
+color: rgb(255, 255, 255); margin: 0in;">
+<span style=3D"font-family: Helvetica; font-size: 10pt; color: rgb(208, 175=
+, 33);"><a href=3D"https://urldefense.com/v3/__http://www.athena-pm.com/__;=
+!!LIr3w8kk_Xxm!p5tex1BQuJWbcuFE7B9XCjQvr8BiLF_hgc4Ed7QmW_XonAQJD8QDp81Ej0cU=
+40YpWtkYn1Kqc-jwJ1X8tg$" id=3D"OWAfeb6c1cf-828c-0ae3-0bc3-9ef3f2e84d31" cla=
+ss=3D"x_x_x_x_x_x_x_x_OWAAutoLink" title=3D"https://urldefense.com/v3/__htt=
+p://www.athena-pm.com/__;!!LIr3w8kk_Xxm!p5tex1BQuJWbcuFE7B9XCjQvr8BiLF_hgc4=
+Ed7QmW_XonAQJD8QDp81Ej0cU40YpWtkYn1Kqc-jwJ1X8tg$" style=3D"color: rgb(208, =
+175, 33); margin: 0px;"><u>www.athena-pm.com</u></a></span></p>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 0in; font-family: Helvetica; font-size=
+: 10pt; color: rgb(0, 0, 0);">
+DRE# 2122715</div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 0in; font-family: Helvetica; font-size=
+: 10pt; color: rgb(208, 175, 33);">
+<u><br>
+</u></div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; backgroun=
+d-color: rgb(255, 255, 255); margin: 0px; font-family: Helvetica; font-size=
+: 11pt; color: rgb(36, 36, 36);">
+<a href=3D"https://www.facebook.com/AthenaPropManagement" id=3D"OWA2cb05d9e=
+-7d3b-d8ca-a301-9440d66d9c90" class=3D"x_x_x_x_x_x_OWAAutoLink" title=3D"ht=
+tps://www.facebook.com/AthenaPropManagement" style=3D"text-decoration: none=
+; margin: 0px;"><img id=3D"x_x_x_x_x_x_x_image_2" style=3D"height: auto; ma=
+x-width: 1871px; min-width: auto; min-height: auto; margin: 0px;" size=3D"3=
+20" data-outlook-trace=3D"F:6|T:6" src=3D"cid:b813d6d3-dc46-46d2-9902-0325f=
+5e4262b"></a>&nbsp;<a href=3D"https://www.linkedin.com/company/athena-prope=
+rty-management/" id=3D"OWAc05a93fc-75ed-f53f-600c-cde4c25913a6" class=3D"x_=
+x_x_x_x_x_OWAAutoLink" title=3D"https://www.linkedin.com/company/athena-pro=
+perty-management/" style=3D"text-decoration: none; margin: 0px;"><img id=3D=
+"x_x_x_x_x_x_x_image_1_0" style=3D"height: auto; max-width: 1871px; min-wid=
+th: auto; min-height: auto; margin: 0px;" size=3D"422" data-outlook-trace=
+=3D"F:6|T:6" src=3D"cid:66bd4f9f-12d3-4d5c-83e3-5fac13aa7cae"></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Gregory Ogin &lt;gogi=
+n@svn.com&gt;<br>
+<b>Sent:</b> Sunday, August 9, 2026 4:14 PM<br>
+<b>To:</b> Audrey Verrette &lt;averrette@athena-pm.com&gt;<br>
+<b>Subject:</b> Monthly update</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p></p>
+<div style=3D"background-color:#FFEB9C; width:100%; border-style:solid; bor=
+der-color:#9C6500; border-width:1pt; padding:2pt; font-size:10pt; line-heig=
+ht:12pt; font-family:'Calibri'; color:Black; text-align:left">
+<span style=3D"color:#FF0000">External Email:</span> Please Use Caution.</d=
+iv>
+<br>
+<p></p>
+<div>
+<div dir=3D"ltr">
+<div dir=3D"ltr">
+<div>
+<div class=3D"x_gmail_default" style=3D"font-size:small">Still not update f=
+rom State on statistics.</div>
+<div class=3D"x_gmail_default" style=3D"font-size:small"><br>
+</div>
+<div class=3D"x_gmail_default" style=3D"font-size:small"><br>
+</div>
+<table cellspacing=3D"0" cellpadding=3D"0" dir=3D"ltr" border=3D"1" style=
+=3D"table-layout:fixed; font-size:10pt; font-family:Arial; width:0px; borde=
+r-collapse:collapse; border-width:medium; border-style:none; border-color:c=
+urrentcolor">
+<colgroup><col width=3D"179"><col width=3D"100"><col width=3D"100"><col wid=
+th=3D"100"><col width=3D"146"><col width=3D"115"><col width=3D"100"><col wi=
+dth=3D"100"><col width=3D"100"><col width=3D"100"><col width=3D"100"></colg=
+roup>
+<tbody>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Property</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Coconut Grove Marketplace</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+May</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2026</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Total Visitors by Air</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+May</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2026</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:297px">
+<div style=3D"float:left">No March or April info available for air traffic<=
+/div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Tourism</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2026</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2025</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+% Change</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+2026 YTD</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+2025 YTD</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+% Change</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom; =
+font-size:9pt">
+Hawai'i Island</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+137,156</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+130,213</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+5.3</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+729,624</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom; =
+font-size:9pt">
+Kona side</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+122,308</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+114,552</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+6.8</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+643,908</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom; =
+font-size:9pt">
+Hilo side</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+37,985</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+40,198</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+-5.5</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+233,191</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom; =
+font-size:9pt">
+Hawai'i Island only</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+78,045</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+75,390</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+3.5</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+434,141</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom; =
+font-size:9pt">
+Hawai'i Island one day or less</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+4,362</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+6,109</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+-28.6</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+35,775</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; font-size:9pt; text-align:right">
+N/A</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; font-=
+weight:bold; text-align:center; border:1px solid rgb(204,204,204)">
+May</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td rowspan=3D"1" colspan=3D"3" style=3D"border-width:1px; border-style:sol=
+id; border-color:rgb(204,204,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,2=
+04); overflow:hidden; padding:2px 3px; vertical-align:bottom; font-weight:b=
+old; text-align:center">
+Occupancy %</td>
+<td rowspan=3D"1" colspan=3D"3" style=3D"border-width:1px; border-style:sol=
+id; border-color:rgb(204,204,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,2=
+04); overflow:hidden; padding:2px 3px; vertical-align:bottom; font-weight:b=
+old; text-align:center">
+Average Daily Rate</td>
+<td rowspan=3D"1" colspan=3D"3" style=3D"border-width:1px; border-style:sol=
+id; border-color:rgb(204,204,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,2=
+04); overflow:hidden; padding:2px 3px; vertical-align:bottom; font-weight:b=
+old; text-align:center">
+RevPAR</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+Hotel Occupancy</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(0,0,0) rgb(204,204,204); overflow:hidden; padding:2px =
+3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2026</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2025</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(0,0,0) rgb(204,204,204); overflow:hidden; padding:2px =
+3px; vertical-align:bottom; text-align:center">
+Percentage Pt. Change</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2026</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2025</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(0,0,0) rgb(204,204,204); overflow:hidden; padding:2px =
+3px; vertical-align:bottom; text-align:center">
+% Change</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2026</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; padding:2px 3px; vertic=
+al-align:bottom; text-align:center">
+2025</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(0,0,0) rgb(204,204,204); overflow:hidden; padding:2px =
+3px; vertical-align:bottom; text-align:center">
+% Change</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+Hawaii Island</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+72.60%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+74.20%</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+-1.60%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$475.61</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$437.52</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+8.70%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$345.51</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$324.78</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+6.40%</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+Kohala Coast</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+73.40%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+76.20%</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+-2.70%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$667.90</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$593.31</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+12.60%</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$490.40</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:center; border:1px solid rgb(204,204,204)">
+$451.90</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom; text-align:center">
+8.50%</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(0,0,0); overflow:visible; padding:2p=
+x 0px; vertical-align:bottom; font-weight:bold">
+<div style=3D"white-space:nowrap; overflow:hidden; width:376px">
+<div style=3D"float:left">Note, data is delayed due processing issues in st=
+ate.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(204,204,204) rgb(204,204,204) rgb(0,0,0); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) rgb(0,0,0) rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddin=
+g:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Tenant Issues</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+1</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Parking</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:661px">
+<div style=3D"float:left">Parking complaints have been greatly reduced. Par=
+king Ordinance have all been abandoned for now</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Humpies</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:661px">
+<div style=3D"float:left">Humpies is going to put the Tenant Improvements (=
+$50,000 Tenant TI) on hold till Humpies space is worked out.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:242px">
+<div style=3D"float:left">Humpies is on % rent only</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+3</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Foster Kitchen Fire</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:459px">
+<div style=3D"float:left">Fosters Kitchen had a fire on 7/2/2025. New roof =
+to be on by 5/12/2026</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:762px">
+<div style=3D"float:left">Fosters is planning on opeing in Oct 2026 but cha=
+nge orders may make late October or early November a new date.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+4</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Crocs</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:762px">
+<div style=3D"float:left">We have replaced ceiling tiles to keep track of a=
+ny new leaks. Both Lavernes and Crocs know we are following this issue</div=
+>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+5</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Security</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:964px">
+<div style=3D"float:left">Seurity late nite 10pm to 2 am is being addressed=
+ by adding 2 more Viking security on Friday and Saturday to see if reductio=
+n in events will happen.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:459px">
+<div style=3D"float:left">Additional Parking seems to be having a positve e=
+ffect on reducing incidents!</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:661px">
+<div style=3D"float:left">Waiting on approval to purchase golf cart for Sec=
+urity. Need to see if there are insurance issues</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Comments</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Projects</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Start Date</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+1</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Oceans Drainage</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+TBD</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:514px">
+<div style=3D"float:left">This project is on hold. Tenant is asking when wi=
+ll drainage be addressed</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">New Roof Lavernes</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+TBD</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:413px">
+<div style=3D"float:left">On hold. Tenant may be willing to build and get r=
+eimbursed</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+3</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Elevator Lava Java</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+8/1/2025</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:211px">
+<div style=3D"float:left">Done but waiting on state permit</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:297px">
+<div style=3D"float:left">Fire Extinguisher has been checked and corrected<=
+/div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+elevator permit</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+4</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Parking Lot Sealing an Striping</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+TBD</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:312px">
+<div style=3D"float:left">Should have bid to do parking lot this week</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+5</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Outback Building</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:413px">
+<div style=3D"float:left">Getting bids for roof resealing and bids to repai=
+nt building</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+6</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Concrete Curbing to be replace</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:211px">
+<div style=3D"float:left">This has been completed.</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+7</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+UIC Well</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Bongo Bens</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:312px">
+<div style=3D"float:left">Bids submitted to Athena for approval</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+$25,000</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+8</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Fosters Kitchen</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+7/2/2025</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:514px">
+<div style=3D"float:left">Roof is on and working towards Oct opening. Resta=
+urant equipment is in Bongo Bens</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:312px">
+<div style=3D"float:left">Contracts have been submitted to rebuild</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+9</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Bongo Bens</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:312px">
+<div style=3D"float:left">Using as storage for Fosters Kitchen equiptment</=
+div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+10</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Irrigation Issues</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:413px">
+<div style=3D"float:left">We are replacing damaged irrigation areas so shru=
+bs will grow.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+11</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Bee infastation</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:514px">
+<div style=3D"float:left">Seems to be gone at this point. Painted Trash can=
+s to be delivered next week.</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+t</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+12</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Project Sign Kuakini</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:413px">
+<div style=3D"float:left">Quotes have been submitted for construction of mo=
+nument sign</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:211px">
+<div style=3D"float:left">Waiting for one more bid</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+13</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Bids for repainting</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:514px">
+<div style=3D"float:left">Property needs repainting in next year or two. Ge=
+tting bids for planning purposes</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Leasing</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+1</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Outback</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:211px">
+<div style=3D"float:left">Chong Quin Hot Pot</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:297px">
+<div style=3D"float:left">Tenant Rent to begin August 8,2026</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Plans still in for review</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:196px">
+<div style=3D"float:left">Following up on structural plans</div>
+</div>
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+2</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Bongo Bens</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:413px">
+<div style=3D"float:left">On hold on improvements to store Fosters Kitchen =
+equiptment</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:312px">
+<div style=3D"float:left">Have two prospects looking at space</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; text-=
+align:right; border:1px solid rgb(204,204,204)">
+3</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+Lavernes</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:visible; padd=
+ing:2px 0px; vertical-align:bottom">
+<div style=3D"white-space:nowrap; overflow:hidden; width:514px">
+<div style=3D"float:left">Foster is very interested in takin over 6000 squa=
+re feet of Lavernes. In talks
+</div>
+</div>
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"border-width:1px; border-style:solid; border-color:rgb(204,204=
+,204) transparent rgb(204,204,204) rgb(204,204,204); overflow:hidden; paddi=
+ng:2px 3px; vertical-align:bottom">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+<tr style=3D"height:21px">
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+<td style=3D"overflow:hidden; padding:2px 3px; vertical-align:bottom; borde=
+r:1px solid rgb(204,204,204)">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div dir=3D"ltr" class=3D"x_gmail_signature" data-smartmail=3D"gmail_signat=
+ure">
+<div dir=3D"ltr">
+<p style=3D"color:black; font-family:arial,helvetica,sans-serif; line-heigh=
+t:1.6"><strong>Gregory G. Ogin, CCIM, CPM</strong>&nbsp;|&nbsp;RB-16053&nbs=
+p;|&nbsp;Principal &amp; Managing Director<br>
+<strong>SVN | GO Commercial</strong><br>
+75-5722 Kuakini Highway, Suite 214 | Kailua-Kona, HI 96740<br>
+808-329-6446&nbsp;phone&nbsp;|&nbsp;808-987-6446&nbsp;cell<br>
+<a href=3D"mailto:gogin@svn.com" target=3D"_blank" style=3D"color:rgb(17,85=
+,204)">gogin@svn.com</a>&nbsp;|&nbsp;<a href=3D"http://svn-go.com/" origina=
+lsrc=3D"http://svn-go.com/" target=3D"_blank" style=3D"color:rgb(17,85,204)=
+">svn-go.com</a>&nbsp; | &nbsp;<a href=3D"https://www.facebook.com/SVNGOCOM=
+/" originalsrc=3D"https://www.facebook.com/SVNGOCOM/" target=3D"_blank" sty=
+le=3D"color:rgb(17,85,204)"><img width=3D"20" height=3D"20" align=3D"top" a=
+lt=3D"Facebook" src=3D"https://gallery.mailchimp.com/7d3ee58bd8ebc9112e12b4=
+475/images/4b960739-2093-4325-99d4-8e44c1aff77a.png"></a>&nbsp;
+ | &nbsp;<a href=3D"https://twitter.com/svngocom" originalsrc=3D"https://tw=
+itter.com/svngocom" target=3D"_blank" style=3D"color:rgb(17,85,204)"><img w=
+idth=3D"20" height=3D"20" align=3D"top" alt=3D"Twitter" src=3D"https://gall=
+ery.mailchimp.com/7d3ee58bd8ebc9112e12b4475/images/f59656da-6d43-401d-9bfc-=
+61751d495442.png"></a>&nbsp;
+ | &nbsp;<a href=3D"https://www.linkedin.com/company/svn-go" originalsrc=3D=
+"https://www.linkedin.com/company/svn-go" target=3D"_blank" style=3D"color:=
+rgb(17,85,204)"><img width=3D"20" height=3D"20" align=3D"top" alt=3D"linked=
+In" src=3D"https://gallery.mailchimp.com/7d3ee58bd8ebc9112e12b4475/images/2=
+d386448-2dcb-443f-8082-daa9d9bacfb9.png"></a></p>
+<p style=3D"font-family:arial,helvetica,sans-serif; font-size:10px; color:g=
+rey"><img width=3D"244" height=3D"114" alt=3D"" style=3D"color:rgb(0,0,0); =
+font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-siz=
+e:14.6667px" src=3D"https://s3.amazonaws.com/buildout-production/brandings/=
+680/logo/original.png"><span style=3D"color:rgb(0,0,0); font-family:&quot;H=
+elvetica Neue&quot;,Helvetica,Arial,sans-serif; font-size:14.6667px"></span=
+><br style=3D"color:rgb(0,0,0); font-family:&quot;Helvetica Neue&quot;,Helv=
+etica,Arial,sans-serif; font-size:14.6667px">
+</p>
+<p style=3D"color:rgb(0,0,0); font-family:&quot;Helvetica Neue&quot;,Helvet=
+ica,Arial,sans-serif; font-size:14.6667px">
+</p>
+<p style=3D"font-family:arial,helvetica,sans-serif; font-size:10px; color:g=
+rey"><img width=3D"469" height=3D"35" alt=3D"" style=3D"color:rgb(0,0,0); f=
+ont-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-size=
+:14.6667px" src=3D"https://s3.amazonaws.com/buildout-production/contacts/at=
+tachments/2407/aae65d6481ae283137cc4022c26ef10f9ff3d4a4/original.jpg?163293=
+3143"><span style=3D"color:rgb(0,0,0); font-family:&quot;Helvetica Neue&quo=
+t;,Helvetica,Arial,sans-serif; font-size:14.6667px"></span><br style=3D"col=
+or:rgb(0,0,0); font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-=
+serif; font-size:14.6667px">
+</p>
+<p style=3D"font-family:arial,helvetica,sans-serif; font-size:10px; color:g=
+rey">This email and any attachments to it may be confidential and are inten=
+ded solely for the use of the individual to whom it is addressed. Any views=
+ or opinion expressed are solely those
+ of the author and do not necessarily represent those of SVNIC. This messag=
+e may not be copied or distributed without this disclaimer. Please note tha=
+t all SVN =AE Offices are independently owned and operated.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_--
+
+--_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: image/png; name="image.png"
+Content-Description: image.png
+Content-Disposition: inline; filename="image.png"; size=665;
+	creation-date="Mon, 10 Aug 2026 15:02:27 GMT";
+	modification-date="Mon, 10 Aug 2026 15:03:05 GMT"
+Content-ID: <66bd4f9f-12d3-4d5c-83e3-5fac13aa7cae>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAABW0lEQVR4AexUvUrDUBg9NFpqNNos
+1g5FRbQBRQRF6dTBwVFXH8DVZ+jipg6O+gIOBRFc3DuJKPizWRGKDSjBQgnUilbPhQYJ99omYhd7
+4dx853w/h3yBRC6Ppht/ierzWSOCDpyuSaAl/7iuaCwZaJiqWGkSG0gjvZxHajan6m1bV5sYFrTe
+IfSZFiKa0fZAWaHSpGIfo1jYxF1hAx/vVfzmKE3iyVUMT65jfHFXzOf6JjIHIJgbnd/B3NoNprKH
+IBdFiktpEtUTMBIZAfZqPYaIqY0tbcFMrVCGbs6AvD++ILjsUprIir9rzn0eL6VTTxocyXqxPwhl
+QoPSVQ727bY3TzctL/YHoUxe3bKYU6/Z4tnqCmXSaqg//w9MXOcC5es9Ab7+W+1RxNSYo0aQE87D
+CakUynW5lXM8FfcF2Fn/+shNzhw1oqnxD0Eug9JEVhxW65oE2lxH1vUJAAD//10YOUgAAAAGSURB
+VAMAy46gmKxWk3wAAAAASUVORK5CYII=
+
+--_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: image/png; name="image.png"
+Content-Description: image.png
+Content-Disposition: inline; filename="image.png"; size=6154;
+	creation-date="Mon, 10 Aug 2026 15:02:29 GMT";
+	modification-date="Mon, 10 Aug 2026 15:03:05 GMT"
+Content-ID: <46709a58-5f06-42f6-98fb-b8f6809318ea>
+Content-Transfer-Encoding: base64
+
+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
+
+--_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_
+Content-Type: image/png; name="image.png"
+Content-Description: image.png
+Content-Disposition: inline; filename="image.png"; size=563;
+	creation-date="Mon, 10 Aug 2026 15:02:30 GMT";
+	modification-date="Mon, 10 Aug 2026 15:03:05 GMT"
+Content-ID: <b813d6d3-dc46-46d2-9902-0325f5e4262b>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAAA9UlEQVR4AeyUsQrCMBCGD0UUqRR0
+EMHq4CK6uXX1Mdx9AjcfQXBx1IcQn6LgoIMOXTqI0KIOFapFcKgkkINMuYAVhxb+Nndp/693B8nt
+1/0kTUW3bZKDH1wZRKvJWu2qtUbQsVcoKokMaXQnYA2mUKnbqK9DzOYQPaOLA0yYUCzIlZSMNreK
+wyN4zpiLJwg3EoTNQXgVDSudmbA5CEi+YPKZlKs9kVI+SZX4hwUavR4nYPF5N8OcakGCXL0l+ryf
+PrD4Hmwwp1qQICoT1X4GUXVI2v+vdrFjhCkOXekvKQG5EnGUBO6c4iu9Q4ZIX2kGGUSrYR8AAAD/
+/xd6v9wAAAAGSURBVAMAP+V8mMxdvF4AAAAASUVORK5CYII=
+
+--_006_MW5PR19MB56044D74506B7600D8704C40E0DE2MW5PR19MB5604namp_--
