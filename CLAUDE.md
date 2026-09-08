@@ -167,10 +167,12 @@ Codes below are CC's proposals, not Athena's official codes. Emma confirms or re
 | BMC | Bell Medical Center | Paragon Properties Group, LLC | *(unknown)* | `properties/bell-medical-center.md` |
 | CGR | Coconut Grove | Coconut Grove Retail XIII, LLC | Kailua-Kona, HI | `properties/coconut-grove.md` |
 | GGW | Greenfield Gateway (Mesa retail center) | Greenfield Gateway, LLC | Mesa, AZ | `properties/greenfield-gateway.md` |
-| LIT | Litchfield (Emma also says "Goodyear") | Goodyear Retail 1, LLC | Goodyear, AZ | `properties/litchfield.md` |
+| GDY | Goodyear (nicknamed "Litchfield" in-house) | Goodyear Retail 1, LLC | Goodyear, AZ | `properties/goodyear.md` |
 | RSC | Roosevelt Commons (Emma says "Roosey") | ABI Properties, INC | Buckeye, AZ | `properties/roosevelt-commons.md` |
 
 Owner names and property names are separate things and several of them sound alike. Paragon and Goodyear Retail 1 are owners, not properties. Goodyear is both an owner-name fragment and a city. Never blend an owner into a property name on anything that goes out.
+
+**Nicknames are in-house only.** "Roosey" and "Litchfield" are what the office calls those centers. Understand them when Emma says them, and never put one on anything a tenant, owner, or vendor will see.
 
 Fill these cards in only from what Emma says or from documents in the repo. Never guess an owner, address, vendor, or lease term.
 
