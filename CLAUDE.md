@@ -160,9 +160,16 @@ www.athena-pm.com
 
 Ask Emma for the list in the first session. One knowledge card per property in `properties/`: owner, key contacts, vendors, lease quirks, "the thing to remember." Permanent facts only; day-to-day items go in the daily thread.
 
+Codes below are CC's proposals, not Athena's official codes. Emma confirms or replaces them.
+
 | Code | Property | Card |
 |------|----------|------|
-| *(fill in)* | | |
+| PBM | Paragon Bell Medical | `properties/paragon-bell-medical.md` |
+| GRN | Greenfield | `properties/greenfield.md` |
+| GDY | Goodyear | `properties/goodyear.md` |
+| RSC | Roosevelt Commons | `properties/roosevelt-commons.md` |
+
+All four cards are skeletons as of 2026-09-08. Every field is blank. Fill them in only from what Emma says or from documents in the repo. Never guess an owner, address, vendor, or lease term.
 
 ---
 
