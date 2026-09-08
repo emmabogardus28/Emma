@@ -76,18 +76,31 @@ Emma reviews, then it becomes a PDF and goes into the bound package
 6. **Prove the arithmetic.** Income minus operating expenses must equal gross cash flow. Gross
    cash flow minus owner expenses minus interest must equal net income. Both MTD and YTD. If it
    does not tie, stop and find out why.
-7. **No commentary bullet under $1K.** Group small accounts together until the line clears
-   $1,000 and name every account in the group. Grouping, never dropping, the bullets still
-   have to sum to the headline. See "Things learned" below.
+7. **Commentary thresholds.** Athena's procedure says to comment on significant variances,
+   "typically greater than $2,500 or 5%". It is an either/or, so a small account with a large
+   percentage swing still qualifies. On top of that, Emma's rule: **no bullet under $1K**.
+   Group small accounts together until the line clears $1,000 and name every account in the
+   group. Grouping, never dropping, the bullets still have to sum to the headline.
 8. **Write the variance commentary** from the `Variance` tab of `802 Bell Medical - MM.YY.xlsx`.
    Athena already writes per tenant comments there (BAS, NNN, CAM, STX, LAT codes). Follow the
    house format: a headline, then `-($X.XK) Reason` bullets, then `Offset by:` and the favourable
    ones. Expense drivers come from the individual GL rows on the IS tab.
-9. **Delinquency tab** from the aged report, tenants with balances over $2,000 only.
-10. **Carry forward the narrative sections** (Renewals, Property Highlights, Capital Projects,
-   Operational Issues) and tell Emma explicitly that they are last month's words and need hers.
-11. **Write the review notes file.** Every number cited to its source, every open question listed.
-11. Move nothing out of `inbox/`. Save and push.
+9. **Delinquency tab** from the aged report. Athena's procedure says balances **in excess of
+   $2,500**. The column header inside the workbook says "Balances over $2,000". They disagree,
+   the procedure wins, raise the header with Athena. Each line needs three things:
+   what the balance represents, the most recent attempt to collect it, and whether it has been
+   collected or paid down since the books closed.
+10. **Renewals is not a judgement call.** The procedure defines it as any tenant within 12
+   months of its lease expiration date. Read the rent roll, compare against the period end,
+   and write what you find. "None" is an answer you prove, not one you carry forward.
+11. **Carry forward the other narrative sections** (Tenant Issues, Gross Sales, Operational,
+   Legal, Highlights and Trends, Capital Projects / Tenant Improvements) and tell Emma
+   explicitly that they are last month's words and need hers.
+12. **Spell check every tab.** The procedure calls for it after each one.
+13. **Manager's review.** The report goes to the Property Manager, Danielle Cebrero, before it
+   is packaged. Emma does not send it onward herself.
+14. **Write the review notes file.** Every number cited to its source, every open question listed.
+15. Move nothing out of `inbox/`. Save and push.
 
 ## Things learned
 
@@ -104,9 +117,22 @@ Emma reviews, then it becomes a PDF and goes into the bound package
 - Set `fullCalcOnLoad="1"` in `xl/workbook.xml` so Excel recalculates on open.
 - **Pull figures programmatically, never retype them.** Owner facing money.
 - **Athena's own files carry errors.** On the first run: square footage and percent leased on the
-  summary matched no source report, two lease expiration dates contradicted the rent roll, the
-  "August" summary file was a byte identical copy of July's, and the COI tab was a year stale.
-  Check, do not assume, and flag rather than silently correct.
+  summary matched no source report, two lease expiration dates contradicted the rent roll, and
+  the COI tab was a year stale. Check, do not assume, and flag rather than silently correct.
+- **The "August" file being an identical copy of July is not an error.** Corrected 2026-09-08
+  after reading Athena's procedure. Step one of Complete Executive Summary is literally "go to
+  the prior month's folder and save a copy of the Excel version of the Executive Summary into
+  the current month's Monthly Report folder". The copy is the intended starting point. Filling
+  it in is the job, not evidence that somebody forgot.
+- **Do not change any cells that have formulas.** Straight from the procedure. Set the literal
+  cells only and let the formulas recompute. Refreshing a formula's cached value is fine, the
+  formula itself must survive.
+- **Check net income twice.** The procedure calls for it by name: the Net Income on the
+  spreadsheet must match the Net Income line on the Comparative Income Statement before you go
+  any further.
+- **COI Tracking is "JH Reports Only"** and comes from a Docutrax report. Ask Emma what JH
+  means and which properties it covers. It may be why the COI tabs are stale on properties
+  where it does not apply.
 - The rent roll is the system of record for suites, square footage and lease dates. The
   Executive Summary header fields are hand typed and drift.
 - Bell Medical tenants as of 08/26: **OMBI** (Suite 100A, 5,659 sq ft), **Arizona Sports & Spine

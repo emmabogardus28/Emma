@@ -94,7 +94,68 @@ group was re-checked against its headline:
 
 The rule is now written into `HOW-IT-WORKS.md` and `WORKFLOW.md` so it holds next month.
 
-## Seven things that need Emma
+## Checked against Athena's procedure
+
+Emma sent "Preparing Monthly Reports" on 2026-09-08, saved to
+`tasks/monthly-reports/reference/`. The draft was re-checked against it.
+
+**Followed:**
+
+- "Do not change any cells that have formulas." Only literal cells were written. Every formula
+  survives, including the shared formulas in the % Change columns. Cached values were
+  refreshed and `fullCalcOnLoad` is set so Excel recomputes on open.
+- "Double check that the Net Income numbers on the spreadsheet match the Net Income line on
+  the Comparative Income report." Done. $183,920.70 for the month, $472,223.10 year to date,
+  matching IS row 60 exactly.
+- "Variances and offsets should be entered as bullet points." Done, with an Offset by block.
+- Delinquency comments say what the balance represents.
+
+**One item closed by the procedure.** Renewals is defined as "any tenant within 12 months of
+lease expiration date". Checked every lease on the 8/31/2026 rent roll against 8/31/2027. The
+earliest expiration in the whole centre is **Mattress Firm on 9/30/2035**, nine years out.
+So **"None" is correct and provable**, not a carried forward guess. That drops the narrative
+sections needing Emma from seven to six.
+
+**Two threshold questions for Emma.**
+
+1. **The variance threshold.** The procedure says comment on variances "typically greater than
+   $2,500 or 5%". Emma's instruction today was nothing under $1K. The draft currently uses the
+   $1K floor with small accounts grouped upward. Note the procedure's test is an either/or, so
+   a small account with a big percentage swing still qualifies, and most of Roosevelt's small
+   accounts do: Trash Removal came in at $0 against a $1,100 budget, which is 100%. Say which
+   rule governs and the commentary will be regrouped to match.
+
+2. **The delinquency threshold.** The procedure says balances "in excess of $2,500". The
+   column header inside the workbook says "Balances over $2,000". **This does not change
+   August**, the three tenants on the tab are $26,052.40, $17,583.10 and $3,151.70, all clear
+   of both, and the two left off are $738.02 and $65.96, below both. But the header and the
+   procedure disagree and Athena should fix one of them.
+
+**Two things the procedure asks for that are not done yet.**
+
+- **Spell check on each tab.** Cannot be run from here. Please run it in Excel before this
+  goes anywhere.
+- **The delinquency comments are missing two of their three required parts.** The procedure
+  wants what the balance represents, the most recent attempt to collect, **and** whether it
+  has been collected or paid down since the books closed. The drafts have the first, and only
+  partly the second. See item 3 below.
+
+**Two things to ask about.**
+
+- **COI Tracking is marked "JH Reports Only"** and comes from a Docutrax report. What is JH,
+  and does it cover ABI Properties? If it does not, that may be why the COI tab has been
+  carrying another property's data, and the tab may not belong in this report at all.
+- **Gross Sales.** The procedure has a step for Gross Sales comments. Roosevelt's summary has
+  no Gross Sales section and no gross sales report came in the August package. Coconut Grove
+  has one. Does Roosevelt need one?
+
+**One thing I got wrong earlier and have corrected.** I flagged the August summary file being
+an identical copy of July's as an Athena error, on Bell Medical and again on Goodyear. It is
+not. The procedure's first instruction under Complete Executive Summary is to save a copy of
+the prior month's Excel summary into the current month's folder. The copy is the intended
+starting point. Corrected in both sets of notes and in the workflow.
+
+## Six things that need Emma
 
 **1. The $50,000 in Other Professional Fees.** This is the single biggest item in the report.
 GL 70230, $50,000.00 posted in August against a zero budget. It is the whole reason net
@@ -116,7 +177,10 @@ $208,168 is exactly one month of budget, which is what confirms the budget year 
 July. **Strike the paragraph if you would rather not raise it, it comes out cleanly.** Worth
 confirming the reason with accounting either way.
 
-**3. The three delinquency notes are mine, not a person's.** I wrote them from the aged
+**3. The three delinquency notes are mine, not a person's, and they are incomplete.** The
+procedure wants three things in each: what the balance represents, the most recent attempt to
+collect, and whether it has been collected or paid down since close of books. Mine cover the
+first and only partly the second. The third is missing entirely, and only you know it. I wrote them from the aged
 report detail because July's notes had gone stale. They are factual but they are not the
 collection story:
 
@@ -132,13 +196,13 @@ August and September would be on time. August closed with both months still owin
 the current status is, that sentence needs your words.
 
 **4. The narrative sections are still July's words.** I did not touch them, and I am not
-going to put words in your mouth. Every one needs your read:
+going to put words in your mouth. Renewals is now settled, see above. The rest need your read:
 
 | Section | Currently says |
 |---|---|
 | Tenant Issues | "Buffalo Spot - working with tenant on construction. Will circle back on rent." |
 | Operational Issues | The June 8 closing and transition paragraph, including "Security deposits totaling $70,080.08 transferred at closing." Three months old now |
-| Renewals (12 months) | "None" |
+| Renewals (12 months) | "None". **Confirmed correct**, earliest expiry is Mattress Firm 9/30/2035 |
 | New Leases/Completed Renewals | "N/A" |
 | Legal | "None" |
 | Property Highlights and Trends | "Management conducts bi-monthly inspections and is working closely with vendors to maintain the center." |

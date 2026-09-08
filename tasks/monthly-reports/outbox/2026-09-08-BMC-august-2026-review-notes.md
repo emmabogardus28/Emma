@@ -96,6 +96,10 @@ Also worth a look: **Operational Issues** still describes the US Corps Contracti
 that closed in March. Five months on, you may want to retire it.
 
 ### 6. The file you uploaded as the August summary is actually July's
+*Corrected 2026-09-08: this is the documented process, not a mistake. Athena's "Preparing
+Monthly Reports" procedure says to start by saving a copy of the prior month's Excel summary
+into the current month's folder. The identical copy is step one, not an oversight.*
+
 `08.26/802 - 08.26 Executive Summary.xlsx` is **byte for byte identical** to the July file, same
 MD5 checksum. It was renamed, not updated, and still reads "July 2026" inside with July's numbers.
 My draft replaces it. Your original is untouched.

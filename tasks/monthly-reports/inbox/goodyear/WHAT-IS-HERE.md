@@ -55,8 +55,11 @@ month updated to "August 2026" (cell B9) but the body was never touched:
 - The cash line, the variance commentary and the delinquency tab are all July's words
 - Tenant Delinquency tab still shows Planet Fitness $15,437.96, which is the July balance
 
-Same thing happened on Bell Medical Center's August file. It is the template, waiting to be
-filled in.
+Same thing happened on Bell Medical Center's August file, and **this is the documented
+process, not a mistake.** Athena's "Preparing Monthly Reports" procedure opens the Complete
+Executive Summary section with "go to the prior month's folder and save a copy of the Excel
+version of the Executive Summary into the current month's Monthly Report folder". The copy is
+where the work starts. Corrected 2026-09-08 after reading the procedure.
 
 ### Where the income statement actually lives (checked 2026-09-08, Emma's steer)
 
