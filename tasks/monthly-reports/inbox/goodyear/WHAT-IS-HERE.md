@@ -58,6 +58,66 @@ month updated to "August 2026" (cell B9) but the body was never touched:
 Same thing happened on Bell Medical Center's August file. It is the template, waiting to be
 filled in.
 
+### Where the income statement actually lives (checked 2026-09-08, Emma's steer)
+
+Emma said the income statement is in the variance spreadsheet. Part of it is. Here is exactly
+what is where, all of it opened and tied out.
+
+**1. The full income statement is the `IS` tab of the month end schedule.**
+`731-07-26 Good Year Month End Schedule.xls` has 59 tabs and one of them is `IS`. It reads
+"Comparative Income Statement / ENTITY: 731 / GOODYEAR RETAIL I, LLC". Every one of the six
+lines on the executive summary comes straight off it, to the cent:
+
+| Executive Summary row | IS tab row | July MTD actual | July MTD budget |
+|---|---|---|---|
+| 12 Total Income | 20, TOTAL INCOME | $31,004.57 | $30,771 |
+| 13 Total Operating Expenses | 31, TOTAL COMMON AREA EXPENSE | $7,629.10 | $8,785 |
+| 14 Gross Cash Flow | 33, GROSS CASH FLOW | $23,375.47 | $21,986 |
+| 15 Total Owners Expense | 45, TOTAL OWNER EXPENSES | $5,688.12 | $1,838 |
+| 16 Total Interest Expense | 51, TOTAL INTEREST EXPENSE | $11,514.00 | $13,000 |
+| 17 Net Income | 58, NET INCOME | $6,173.35 | $7,148 |
+
+Same mapping Bell Medical uses, just different row numbers. The IS tab also carries the
+warning "Report includes an open period. Entries are not final."
+
+**There is no month end schedule for Goodyear in the 08.26 upload.** July's is the only one.
+
+**2. The variance workbook carries the income line and the whole budget.**
+
+- `Variance` tab, **row 16**, is the income statement reconciliation. Cell BN16 literally
+  says "i/s". For August: cell AK16 budget **$30,771**, AL16 actual **$30,771.92**, AM16
+  variance **$0.92**. Year to date: BK16 budget **$246,060**, BL16 actual **$269,235.24**,
+  BM16 variance **$23,175.24**.
+  Checked against July, where AF16/AG16/AH16 read 30,771 / 31,004.57 / 233.57, which is
+  exactly what the July executive summary shows on row 12. So this row is trustworthy.
+- `Summary` tab is the 2026 operating budget, entity 731, "Date Revised 8/31/2026". It is
+  where the whole budget column comes from. Tied out against July: TOTAL INCOME row 25
+  ($30,771.94), SUBTOTAL COMMON AREA row 55 ($8,784.92 = the $8,785 budget), NET OPERATING
+  INCOME row 73 ($21,987.02 = the $21,986 gross cash flow), TOTAL OWNER EXPENSE row 90
+  ($14,837.81) less Interest Expense row 86 ($13,000) = $1,837.81 = the $1,838 owner expense
+  budget. All six budget figures reconcile.
+- The Summary tab holds **no actuals**. Every month January through December carries the same
+  figure, because it is a budget spread across the year.
+
+**3. So for August I have one actual line out of six.**
+
+Total Income is settled: MTD $30,771.92 against a $30,771 budget, up $0.92. YTD $269,235.24
+against $246,060, up $23,175.24, or 9.42%.
+
+Operating expenses, gross cash flow, owner expenses, interest expense and net income have no
+August actual anywhere in the upload. Those five cannot be written without the income
+statement.
+
+**4. What would unblock it: one file.**
+
+`731-08-26 Good Year Month End Schedule.xls`, the August twin of the July one, or failing
+that the 08/26 comparative income statement printed for entity 731. Either gives all six
+lines.
+
+Checked every other Excel file in the 08.26 upload. The only `IS` tab in there belongs to
+`803 ABI Monthly Schedules 08.26.xlsx`, which reads "ENTITY: 803 / ABI PROPERTIES, INC".
+That is Roosevelt Commons, not Goodyear.
+
 ### What is missing for August
 
 Nothing else Goodyear was in the `08.26/` upload. Every other loose PDF in that folder was
@@ -66,8 +126,8 @@ SD ledger), except the mortgage statement, which is Greenfield Gateway.
 
 Still needed to write August's summary:
 
-- [ ] Comparative income statement for 08/26, entity 731 (or the `IS` tab of a Goodyear
-      month end schedule for 08.26)
+- [ ] **The one that matters:** `731-08-26 Good Year Month End Schedule.xls`, for its `IS`
+      tab. Or the 08/26 comparative income statement printed for entity 731
 - [ ] Rent roll for 08/26
 - [ ] Aged delinquencies for 08/26
 - [ ] Goodyear month end schedule for 08.26
