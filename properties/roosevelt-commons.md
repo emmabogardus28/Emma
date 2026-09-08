@@ -2,17 +2,18 @@
 
 **Code:** RSC
 **Full name:** Roosevelt Commons
+**Emma calls it:** Roosey
 **City:** Buckeye, AZ
 **Street address:** *(unknown)*
 **Property type:** *(unknown)*
 
-*Source: Emma, 2026-09-08, "roosevelt commons - buckeye az - previous owner simoncre"*
+*Sources: Emma, 2026-09-08, "roosevelt commons - buckeye az - previous owner simoncre" and "ABI Properties, INC - Roosevelt Commons - Roosey - Buckeye"*
 
 ## Owner
-- **Current owner: *(unknown)*** — Emma named SimonCRE as the PREVIOUS owner, so do not use SimonCRE on anything current until the present owner is confirmed.
+- **Current owner: ABI Properties, INC**
 - Previous owner: SimonCRE
 - Date of sale / transfer: *(unknown)*
-- Owner contact: *(unknown)*
+- Owner contact name: *(unknown)*
 - Phone: *(unknown)*
 - Email: *(unknown)*
 
@@ -29,7 +30,9 @@
 *(none recorded yet)*
 
 ## The thing to remember
-Ownership changed. SimonCRE is the prior owner, not the current one. Confirm who owns it now before any owner-facing communication goes out.
+Ownership changed. ABI Properties, INC owns it now. SimonCRE is the prior owner and should never appear on anything current.
+
+When Emma says "Roosey," she means this property.
 
 ---
 *Card started 2026-09-08. Blank fields mean unknown, not empty. CC fills these in as real facts come up, never by guessing.*

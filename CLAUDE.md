@@ -162,14 +162,16 @@ Ask Emma for the list in the first session. One knowledge card per property in `
 
 Codes below are CC's proposals, not Athena's official codes. Emma confirms or replaces them.
 
-| Code | Property | Card |
-|------|----------|------|
-| PBM | Paragon Bell Medical | `properties/paragon-bell-medical.md` |
-| GRN | Greenfield | `properties/greenfield.md` |
-| GDY | Goodyear | `properties/goodyear.md` |
-| RSC | Roosevelt Commons | `properties/roosevelt-commons.md` |
+| Code | Property | Owner | City | Card |
+|------|----------|-------|------|------|
+| BMC | Bell Medical Center | Paragon Properties Group, LLC | *(unknown)* | `properties/bell-medical-center.md` |
+| GRN | Greenfield | *(unknown)* | *(unknown)* | `properties/greenfield.md` |
+| LIT | Litchfield (Emma also says "Goodyear") | Goodyear Retail 1, LLC | Goodyear, AZ | `properties/litchfield.md` |
+| RSC | Roosevelt Commons (Emma says "Roosey") | ABI Properties, INC | Buckeye, AZ | `properties/roosevelt-commons.md` |
 
-All four cards are skeletons as of 2026-09-08. Every field is blank. Fill them in only from what Emma says or from documents in the repo. Never guess an owner, address, vendor, or lease term.
+Owner names and property names are separate things and several of them sound alike. Paragon and Goodyear Retail 1 are owners, not properties. Goodyear is both an owner-name fragment and a city. Never blend an owner into a property name on anything that goes out.
+
+Fill these cards in only from what Emma says or from documents in the repo. Never guess an owner, address, vendor, or lease term.
 
 ---
 
