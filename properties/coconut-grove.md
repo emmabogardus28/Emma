@@ -1,12 +1,13 @@
 # Coconut Grove
 
 **Code:** CGR
-**Full name:** Coconut Grove
+**Full name:** Coconut Grove *(Emma gave "Coconut Grove" as both the name and the nickname. The other four properties have a longer formal name than their nickname, so check whether this one does too.)*
+**Nickname:** Coconut Grove
 **City:** Kailua-Kona, Hawaii *(Emma wrote "Kaile Kona," read as Kailua-Kona. Confirm spelling before it goes on a letter.)*
 **Street address:** *(unknown)*
 **Property type:** *(unknown, owner entity name suggests retail)*
 
-*Source: Emma, 2026-09-08, "Coconut Grove Retail XIII , LLC - Coconut Grove - Kaile Kona Hawaii"*
+*Sources: Emma, 2026-09-08, "Coconut Grove Retail XIII , LLC - Coconut Grove - Kaile Kona Hawaii" and "Nickanme - Bell Medical, greenfield and coconut grove"*
 
 ## Owner
 - **Current owner: Coconut Grove Retail XIII, LLC**

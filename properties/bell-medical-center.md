@@ -2,11 +2,12 @@
 
 **Code:** BMC
 **Full name:** Bell Medical Center
+**Nickname:** Bell Medical
 **City:** *(unknown)*
 **Street address:** *(unknown)*
 **Property type:** *(unknown, name suggests medical office)*
 
-*Sources: Emma, 2026-09-08, "paragon Bell Medical" and "Paragon Properties Group, LLC - Bell Medical Center"*
+*Sources: Emma, 2026-09-08, "paragon Bell Medical", "Paragon Properties Group, LLC - Bell Medical Center", and "Nickanme - Bell Medical, greenfield and coconut grove"*
 
 ## Owner
 - **Current owner: Paragon Properties Group, LLC**
@@ -28,6 +29,8 @@
 
 ## The thing to remember
 "Paragon" is the owner, Paragon Properties Group, LLC. The property itself is Bell Medical Center. Do not blend the two into one name on anything that goes out.
+
+Emma says "Bell Medical" in conversation. Anything outgoing gets the full name, Bell Medical Center.
 
 ---
 *Card started 2026-09-08. Blank fields mean unknown, not empty. CC fills these in as real facts come up, never by guessing.*

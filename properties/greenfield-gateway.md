@@ -2,6 +2,7 @@
 
 **Code:** GGW
 **Full name:** Greenfield Gateway
+**Nickname:** Greenfield
 **City:** Mesa, AZ
 **Street address:** *(unknown)*
 **Property type:** Retail center
@@ -28,6 +29,8 @@
 
 ## The thing to remember
 The owner entity and the property share a name: Greenfield Gateway, LLC owns Greenfield Gateway. Keep the ", LLC" on the owner and off the property when addressing anything.
+
+Emma says "Greenfield" in conversation. Anything outgoing gets the full name, Greenfield Gateway.
 
 ---
 *Card started 2026-09-08. Blank fields mean unknown, not empty. CC fills these in as real facts come up, never by guessing.*
