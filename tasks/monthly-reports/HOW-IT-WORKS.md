@@ -109,8 +109,17 @@ month would have missed by $17K instead of $14.3K.
 **Your bullets have to add up to your headline.** Roughly, in thousands, but they have to get
 there. If they do not, you have missed a driver and the owner will find it.
 
-Small items under a few hundred dollars can be left off, they round to nothing at this scale. Just
-know why your bullets are a little short and be able to say so.
+**No bullet under $1K.** Anything smaller gets grouped with other accounts until the line
+clears $1,000, and you name every account in the group. A page of "($0.4K) this" and
+"($0.9K) that" reads like noise and buries the items that actually matter.
+
+Athena's own files work this way. Goodyear's July summary says "-($2.1K) HVAC Repair/Labor,
+City Sales Tax", which is $1,350.00 and $758.03 grouped. Roosevelt's July says "-$5.3K On Site
+Management Fees, Janitorial, Sidewalk Maintenance, Water/Common Area", four accounts in one
+line. Follow that.
+
+Grouping is not the same as dropping. The bullets still have to add up to the headline, so
+sweep the small accounts into a group rather than leaving them out.
 
 ### Where the reasons come from
 

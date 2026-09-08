@@ -76,18 +76,25 @@ Emma reviews, then it becomes a PDF and goes into the bound package
 6. **Prove the arithmetic.** Income minus operating expenses must equal gross cash flow. Gross
    cash flow minus owner expenses minus interest must equal net income. Both MTD and YTD. If it
    does not tie, stop and find out why.
-7. **Write the variance commentary** from the `Variance` tab of `802 Bell Medical - MM.YY.xlsx`.
+7. **No commentary bullet under $1K.** Group small accounts together until the line clears
+   $1,000 and name every account in the group. Grouping, never dropping, the bullets still
+   have to sum to the headline. See "Things learned" below.
+8. **Write the variance commentary** from the `Variance` tab of `802 Bell Medical - MM.YY.xlsx`.
    Athena already writes per tenant comments there (BAS, NNN, CAM, STX, LAT codes). Follow the
    house format: a headline, then `-($X.XK) Reason` bullets, then `Offset by:` and the favourable
    ones. Expense drivers come from the individual GL rows on the IS tab.
-8. **Delinquency tab** from the aged report, tenants with balances over $2,000 only.
-9. **Carry forward the narrative sections** (Renewals, Property Highlights, Capital Projects,
+9. **Delinquency tab** from the aged report, tenants with balances over $2,000 only.
+10. **Carry forward the narrative sections** (Renewals, Property Highlights, Capital Projects,
    Operational Issues) and tell Emma explicitly that they are last month's words and need hers.
-10. **Write the review notes file.** Every number cited to its source, every open question listed.
+11. **Write the review notes file.** Every number cited to its source, every open question listed.
 11. Move nothing out of `inbox/`. Save and push.
 
 ## Things learned
 
+- **No variance bullet under $1K.** Emma flagged this on the Roosevelt Commons August draft,
+  2026-09-08. The first draft carried six sub-$1K bullets, "-$0.1K Pest Control Maintenance,
+  Sweeping" being the worst of them. Group small accounts up until the line clears $1,000 and
+  list every account in the group. Athena's own summaries do exactly this.
 - **Never open this workbook with openpyxl and save it.** A round trip destroys 99.7% of the
   file, all 14 embedded photos and the logo included, dropping it from 6.1 MB to 20 KB. Patch the
   sheet XML inside the zip instead, and rezip preserving the original entry order. Read values

@@ -73,6 +73,27 @@ to $19,837.34.
 
 ---
 
+## Correction made 2026-09-08
+
+Emma flagged that the first draft used bullets under $1K. Six of them: "-($0.6K) TA Nail Bar,
+Panda Express", "-$0.8K Electric/Building, Electric/Common Area", "-$0.1K Pest Control
+Maintenance, Sweeping", "-($0.9K) Janitorial, Building Lighting", "-$0.9K Electric/Building",
+and "-($0.5K) On Site Management Fees, Janitorial, Building Lighting".
+
+All six are gone. The small accounts are grouped into lines that clear $1,000, with every
+account named, which is how Athena's own summaries are written. Nothing was dropped, and each
+group was re-checked against its headline:
+
+| Section | Bullets sum to | Headline |
+|---|---|---|
+| Income, month | $41,676.18 | $41,676.02 (16 cents of rounding inside Athena's variance workbook) |
+| Operating expenses, month | $2,633.68 | $2,633.68 |
+| Operating expenses, year | $19,837.34 | $19,837.34 |
+| Owner expenses, month | ($44,923.00) | ($44,923.00) |
+| Owner expenses, year | ($39,846.00) | ($39,846.00) |
+
+The rule is now written into `HOW-IT-WORKS.md` and `WORKFLOW.md` so it holds next month.
+
 ## Seven things that need Emma
 
 **1. The $50,000 in Other Professional Fees.** This is the single biggest item in the report.
