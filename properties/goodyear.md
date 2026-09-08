@@ -59,11 +59,23 @@ Accountant to satisfy PF's questions in order to make payment." Last payment 7/3
 $28,917.09. *(Source: bound July report page 6, and the Tenant Delinquency tab of the July
 executive summary)*
 
-## Numbers that do not agree, do not use until Emma confirms
-- Executive summary header says **51,159 sq ft** and **44.12% leased**. The rent roll says
-  **50,394 sq ft** and its totals line says **100.00% occupied, 0 vacant**. 44.12% equals
-  Planet Fitness alone (22,235 / 50,394). The same 51,159 also appears on Bell Medical
-  Center's summary, so it looks like a template carryover.
+## Size and occupancy, settled 2026-09-08
+
+**Total: 50,394 sq ft.** Confirmed on two independent rent rolls, as of 7/31/2026 and as of
+9/6/2026. Planet Fitness 22,235 plus suite 409-117 at 28,159 is exactly 50,394.
+
+The executive summary header has been carrying **51,159**, which is wrong. That is the same
+figure on Bell Medical Center's summary, whose rent roll says 12,476. A template carryover.
+Emma to approve the correction to 50,394 before it goes out.
+
+**Leased: 44.12%**, which is Planet Fitness alone, 22,235 / 50,394.
+
+The rent roll's own totals line says 100.00% occupied with 0 vacant. That is wrong, and the
+reason is worth knowing: **Spirit Halloween's expired lease is still flagged active in the
+system.** Its term ended 11/17/2025 and it pays nothing, which the roll itself shows, total
+base rent of $22,182.89 being Planet Fitness ($20,382.08) plus EVGO ($1,800.81) with Spirit
+Halloween at zero. Until that record is deactivated the rent roll will keep reporting a half
+empty center as fully occupied.
 
 ## The thing to remember
 The property is Goodyear. Litchfield is only the in-house nickname, taken from the street it sits off. **Litchfield never goes on anything a tenant, owner, or vendor sees.**

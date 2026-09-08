@@ -60,24 +60,69 @@ Only Planet Fitness clears the $2,000 threshold, so the August Tenant Delinquenc
 line, same as July. Emma needs to say whether the action note has changed since July's
 "Working with Senior Accountant to satisfy PF's questions in order to make payment."
 
-## Not usable: the rent roll
+## Superseded: the first rent roll
 
 `02.Rent Roll - PULLED AS OF 9-19-2012, DO NOT USE.pdf`.
 
-The report was printed 9/8/2026, but the "as of" date on it reads **9/19/2012**. July's rent
-roll reads 7/31/2026 in the same spot. It is a fourteen year old snapshot, and it shows:
+Printed 9/8/2026 at 6:06 PM but pulled **as of 9/19/2012**. It shows BIG LOTS occupying suite
+409-117 on a 1/1/2010 to 1/31/2034 term, lists Planet Fitness's suite 409-112 under Vacant
+Suites, uses round-number square footage (23,000 and 27,000, 50,000 total), and every money
+column totals $0.00. Kept for the record, not used. Replaced by the one below.
 
-- **BIG LOTS** as the occupant of suite 409-117, on a term of 1/1/2010 to 1/31/2034. Big Lots
-  is long gone, the space is the vacant box Superplay takes in 2027
-- **Planet Fitness's suite 409-112 listed under "Vacant Suites"**
-- Round-number square footage, 23,000 and 27,000 and a 50,000 total, against the real figures
-  on the July roll of 22,235 and 28,159 and 50,394
-- 54.00% occupied and 46.00% vacant, which is neither of the percentages in play
-- **No base rent at all.** Every money column totals $0.00
+## Good: Rent Roll with Lease Options, as of 9/6/2026
 
-Nothing on it can be used. It needs re-running with the as of date set to **8/31/2026**.
+`02.Rent Roll with Lease Options - as of 9-6-2026 (731).pdf`. Header reads "GOODYEAR RETAIL I
+LLC / Bldg ID 731 / GLA / Active only", printed 9/8/2026 at 6:16 PM, **as of 9/6/2026**.
+
+| Tenant | Lease-Suite | Sq ft | Term | Monthly base rent | Monthly cost recovery |
+|---|---|---|---|---|---|
+| PLANET FITNESS | 011232-409-112 | 22,235 | 1/10/2023 to 1/31/2033 | $20,382.08 | $7,692.77 |
+| SPIRIT HALLOWEEN | 012017-409-117 | 28,159 | 7/1/2025 to 11/17/2025 | none | none |
+| EVGO | 011169-PKG | 0 | 2/26/2022 to 2/29/2032 | $1,800.81 other income | none |
+| SUPERPLAY (new lease) | 012451-409-117 | 28,159 | 4/1/2027 to 3/31/2037 | not yet commenced | |
+
+Totals: Occupied 50,394 sq ft, 100.00%, 2 units. Vacant 0. Total 50,394. Monthly base rent
+$22,182.89, monthly cost recovery $7,692.77.
+
+Checked the arithmetic: 22,235 plus 28,159 is exactly 50,394. $20,382.08 plus $1,800.81 is
+exactly $22,182.89. Planet Fitness at $20,382.08 a month over 22,235 sq ft is $11.00 a foot a
+year, which is the rate printed on the roll. Everything internally consistent.
+
+### The date is 9/6/2026, not 8/31/2026
+
+Strictly this is a September snapshot going into an August report. In practice it is safe to
+use, and here is why: this roll and the 7/31/2026 roll in July's package carry the identical
+tenant roster, identical square footage and identical rents. Nothing changed between 7/31 and
+9/6, so nothing changed at 8/31 either. Worth asking for a clean 8/31/2026 print for the file,
+but it is not blocking anything.
+
+### This settles the square footage question
+
+Two independent rent rolls, 7/31/2026 and 9/6/2026, both say **50,394 square feet**. The
+executive summary header says **51,159**. The summary is wrong. 51,159 is the same figure
+sitting on Bell Medical Center's summary, whose own rent roll says 12,476, so it is a number
+that got copied between templates and never corrected.
+
+**August should read 50,394 square feet.** Emma to approve the correction before it goes out.
+
+### And it explains the percent leased contradiction
+
+The roll's totals line says 100.00% occupied with 0 vacant. That is a data hygiene artifact,
+not the truth. The roll counts the 28,159 sq ft box as occupied because **Spirit Halloween's
+expired lease is still flagged active** in the system. Its term ended 11/17/2025 and it pays
+nothing, which the roll itself shows: total base rent of $22,182.89 is Planet Fitness plus
+EVGO only, with Spirit Halloween contributing zero.
+
+Real leased space as of 8/31/2026 is Planet Fitness alone, 22,235 over 50,394, which is
+**44.12%**. That is exactly what the summary header says, so on this one the summary is right
+and the rent roll is misleading.
+
+**August should stay at 44.12% leased.** Separately, someone should deactivate Spirit
+Halloween's expired lease record so the roll stops reporting 100% occupancy on a half empty
+center.
 
 ---
+
 
 ## Where the August summary stands now
 
@@ -103,6 +148,17 @@ not knowable without the income statement.
 1. **`731-08-26 Good Year Month End Schedule.xls`**, for its `IS` tab. Or a comparative income
    statement for entity 731 through 8/31/2026. This unblocks four of the six lines and every
    bullet of the expense commentary.
-2. **Rent roll with lease options, re-run as of 8/31/2026.** Square feet, percent leased, the
-   Leasing section.
-3. **August mortgage statement for the Goodyear loan**, for the ending statement balance.
+2. **August mortgage statement for the Goodyear loan**, for the ending statement balance.
+   July quotes the Midland statement's $2,138,006.57. The August balance sheet shows notes
+   payable at $2,130,544.59, a different figure for the same loan.
+
+Nice to have, not blocking: a clean rent roll print as of 8/31/2026 rather than 9/6/2026.
+
+## Settled by the rent roll
+
+- **Square Feet, cell H7: 50,394.** Correcting 51,159, which came off Bell Medical's template.
+- **Percent Leased, cell H8: 44.12%.** Unchanged from July. The rent roll's own 100.00% is
+  wrong because Spirit Halloween's expired lease is still active in the system.
+- **The Leasing section** carries forward unchanged. SuperPlay, suite 409-117, 28,159 sq ft,
+  4/1/2027 to 3/31/2037. The option ladder and the 210 to 360 day notice window are in July's
+  wording and nothing on this roll contradicts them.
