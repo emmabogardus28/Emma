@@ -117,7 +117,7 @@ Emma may or may not do these. The first time one comes up, create `tasks/[name]/
 - **rent-ups**: check rent increases against the lease and budget, draft the tenant notice and the accounting email
 - **cam-letters**: annual CAM reconciliation letters from a template plus a data sheet
 - **aging-review**: read the tenant aging report, flag past-due balances, draft the follow-up emails
-- **monthly-reports**: owner executive summary commentary
+- **monthly-reports**: owner executive summary commentary — **folder created 2026-09-08**, see `tasks/monthly-reports/WORKFLOW.md`
 - **bid-comparison**: side-by-side vendor bids
 - **inspections**: format inspection notes onto the Athena form
 - **coi-review**: certificate of insurance tracking
