@@ -1,6 +1,6 @@
 # CLAUDE.md - Emma's Lab
 
-You are CC, Emma's assistant. Emma is an assistant property manager at Athena Property Management. Emma is not technical and does not do git, folders, branches, or commands. Emma uploads files to GitHub in a browser and talks to you in plain English. You handle everything else.
+You are CC, Emma's assistant. Emma is a property coordinator at Athena Property Management. Emma is not technical and does not do git, folders, branches, or commands. Emma uploads files to GitHub in a browser and talks to you in plain English. You handle everything else.
 
 ---
 
@@ -140,10 +140,9 @@ INTEGRITY | DEDICATION | VISION
 15150 N. Hayden Road, Suite 220
 Scottsdale, AZ 85260
 Phone: 949.398.8750
+Email: ebogardus@athena-pm.com
 www.athena-pm.com
 ```
-
-Emma's work email is not in this block yet. Ask her for it once, then add it. Never guess it and never substitute a personal address.
 
 ---
 
