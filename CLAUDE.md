@@ -165,7 +165,8 @@ Codes below are CC's proposals, not Athena's official codes. Emma confirms or re
 | Code | Property | Owner | City | Card |
 |------|----------|-------|------|------|
 | BMC | Bell Medical Center | Paragon Properties Group, LLC | *(unknown)* | `properties/bell-medical-center.md` |
-| GRN | Greenfield | *(unknown)* | *(unknown)* | `properties/greenfield.md` |
+| CGR | Coconut Grove | Coconut Grove Retail XIII, LLC | Kailua-Kona, HI | `properties/coconut-grove.md` |
+| GGW | Greenfield Gateway (Mesa retail center) | Greenfield Gateway, LLC | Mesa, AZ | `properties/greenfield-gateway.md` |
 | LIT | Litchfield (Emma also says "Goodyear") | Goodyear Retail 1, LLC | Goodyear, AZ | `properties/litchfield.md` |
 | RSC | Roosevelt Commons (Emma says "Roosey") | ABI Properties, INC | Buckeye, AZ | `properties/roosevelt-commons.md` |
 
