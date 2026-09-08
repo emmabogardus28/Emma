@@ -131,14 +131,19 @@ Emma may or may not do these. The first time one comes up, create `tasks/[name]/
 - **No em-dashes or en-dashes** in anything a tenant, owner, or vendor will see. Use commas, periods, or parentheses. Write "10 to 15 minutes," not a dash.
 - **Don't write a vendor's scope of work for them.** When a trade issue comes in (electrical, plumbing, roofing, HVAC), the email relays what was reported and asks the vendor to inspect, advise, and send a proposal. We are not electricians.
 - **Ask before sending anything, overwriting anything, or doing anything that costs money.**
-- **Signature block** for every draft (Emma fills this in the first session):
+- **Signature block** for every draft, exactly as Emma's Outlook signature reads:
 
 ```
-[Emma's full name]
-Assistant Property Manager
+Emma Bogardus | Property Coordinator
 Athena Property Management
-[phone] | [email]
+INTEGRITY | DEDICATION | VISION
+15150 N. Hayden Road, Suite 220
+Scottsdale, AZ 85260
+Phone: 949.398.8750
+www.athena-pm.com
 ```
+
+Emma's work email is not in this block yet. Ask her for it once, then add it. Never guess it and never substitute a personal address.
 
 ---
 
