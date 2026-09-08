@@ -19,13 +19,16 @@
 ## Key contacts
 *(none recorded yet)*
 
-## This property is not like the others
+## This property is not like the others (corrected 2026-09-08)
 
 Everything else in the portfolio (731, 801, 802, 803) runs on the same six line Executive
 Summary. Coconut Grove does not fit it, and forcing it would misstate the property.
 
-- **Reported on an accrual basis.** Every other property says "Cash" in the income statement
-  header. This one says "Accrual".
+- **Athena produces two income statements for it every month, accrual and cash**, printed at
+  the same moment. Every other property gets cash only. **The executive summary is supposed to
+  use the cash one**, cell A12 says "CASH" and the commentary headings say "per cash income
+  statement". July's report was built on the accrual one by mistake and understated the loss by
+  $126,935.23. See the August review notes.
 - **Three profit lines the standard template has no room for:** Net Operating Income, Adjusted
   Net Operating Income (after owner expenses) and Adjusted NOI after G&A. It carries Corporate
   G&A expenses, which no other property does.
@@ -35,8 +38,21 @@ Summary. Coconut Grove does not fit it, and forcing it would misstate the proper
 - **Two interest lines:** Morgan Stanley interest and a separate swap interest.
 - **It reports tenant gross sales.** None of the others do.
 
-**There is no executive summary template for this property anywhere in the repo.** Ask Emma
-whether Coconut Grove gets one at all.
+**Corrected 2026-09-08:** there is a template, it arrived with the later upload. Six tabs:
+Executive Summary, Tenant Delinquency, COVID 19-Rent Recovery, Tenant COI Tracking, Tenant
+Maintenance Tracking, Fosters Rebuild Costs. The money table has **eight** rows, not the six
+every other property uses.
+
+## Size and occupancy
+
+*Source: `08.26/RENT ROLL.pdf`, "COCONUT GROVE MARKET PLACE / Bldg ID 165", as of 8/31/2026*
+
+**51,058 sq ft total, 18 units.** Occupied 48,065 sq ft across 17 units, 94.14%. Vacant one
+unit of 2,993 sq ft, 5.86%. Monthly base rent $162,704.66, cost recovery $87,581.91, other
+income $13,503.49.
+
+The executive summary header had been carrying **50,133 sq ft**, which is wrong. Its own 94.14%
+only works against 51,058.
 
 ## Tenants reporting gross sales
 
@@ -51,13 +67,18 @@ footage reporting sales is 32,508 for 2026, down from 38,083 in 2024.
 **Sales are down.** January to July: $12,651,010.66 in 2026 against $14,415,792.66 in 2025 on
 the same square footage, about 12% behind.
 
-**A $239,946.60 charge to "Loss Against Ins Claims" (GL 70463) landed in July** against a zero
-budget. It is almost the entire reason July net income came in at ($190,109.99) against a
-$28,102.09 budget. Year to date that account sits at a credit of ($157,053.51), so something
-was booked the other way earlier in the year. Nobody has explained either.
+**Foster's Kitchen fire, 7/1/25.** The tenant has been closed since. Insurance payments of
+$1,301,410.55 received to date against $1,490,255.81 of expenses paid and forecast, leaving
+($188,845.26) as of the July report. GL 70463 "Loss Against Ins Claims" carries the accounting:
+$239,946.60 charged in July on the accrual statement, $67,632.25 in August on the cash one, and
+a year to date credit balance. The Fosters Rebuild Costs tab in the summary tracks it and has
+not been updated since July.
 
-**A $300,000.00 movement on Loan Receivable (GL 12100)** also shows in July under capital
-expenses. Also unexplained.
+**Chong Qing Hot Pot owes $33,287.79** as of the 08/26 aged report and is disputing its Rent
+Commencement Date. Three months unpaid. It is the largest delinquency on the property.
+
+**Parking is the bright spot.** $65,950.10 over budget year to date on a $240,000 annual
+budget, after rates were raised mid year.
 
 ## Vendors
 
