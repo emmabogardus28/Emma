@@ -86,14 +86,14 @@ straight out of ATHENA. The 10/31/26 dates are hand typed into the summary.
 These are lease dates on an owner report, so I did not change them on my own. I left the July
 wording. **This one I would resolve before it goes out.**
 
-### 5. Three narrative sections are still July's words
-I had no August information for these, so they carried forward untouched and need your update:
-- **Renewals** (both tenant blocks)
-- **Property Highlights and Trends**
-- **Capital Projects / Tenant Improvements**
+### 5. Narrative sections: RESOLVED 2026-09-09
+Emma checked May, June and July and confirmed all three sections read the same across every
+month. Nothing moved in August. Renewals, Property Highlights and Capital Projects carry forward
+unchanged, deliberately, not by oversight. OMBI is exercising their option to renew. The asphalt
+sealcoat did happen in March.
 
-Also worth a look: **Operational Issues** still describes the US Corps Contracting courtyard job
-that closed in March. Five months on, you may want to retire it.
+Operational Issues also carries forward. It still describes the US Corps Contracting courtyard
+job that closed in March; worth retiring at some point but not this month.
 
 ### 6. The file you uploaded as the August summary is actually July's
 `08.26/802 - 08.26 Executive Summary.xlsx` is **byte for byte identical** to the July file, same
@@ -113,10 +113,16 @@ Lease Options, the JE BACKUP folder, and the numbered title page.
 I got the income statement out of the Monthly Schedules workbook instead, so the summary is
 complete. But if the full bound package needs assembling the way July's was, those are the gaps.
 
-### 8. Whose name goes on it?
-The workbook still says Property Manager Danielle Cebrero and Assistant Property Manager
-Jaie Benson. You are Property Coordinator. Tell me if your name belongs on this and where, and
-I will put it on.
+### 8. Whose name goes on it: RESOLVED 2026-09-09
+Danielle Cebrero stays as Property Manager. Emma Bogardus replaces Jaie Benson in the assistant
+slot on all six tabs.
+
+The one loose thread: those slots are **labelled** "Assistant Property Manager" and Emma's title
+is Property Coordinator. The label was not changed, only the name. Worth confirming, since this
+states a title on an owner-facing document.
+
+Jaie Benson's name deliberately remains in the Operational Issues paragraph, which records a
+meeting she attended on January 19, 2026. That is history, not a name slot.
 
 One more small thing: the **COI Tab** header reads "August 2025", a year stale. It was already
 wrong in the July file so I left it alone rather than guess whether that tab is still used.
