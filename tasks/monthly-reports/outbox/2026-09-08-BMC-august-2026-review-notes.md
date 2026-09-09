@@ -83,8 +83,15 @@ The July Executive Summary renewals section says:
 Both the July and the August rent rolls agree on 3/31/2027 and 3/15/2027, and they are generated
 straight out of ATHENA. The 10/31/26 dates are hand typed into the summary.
 
-These are lease dates on an owner report, so I did not change them on my own. I left the July
-wording. **This one I would resolve before it goes out.**
+These are lease dates on an owner report, so I did not change them on my own.
+
+**DECIDED 2026-09-09 by Emma: keep 10/31/26 on the report.** CC raised the conflict twice with the
+evidence above; Emma confirmed the dates stay as written. The Renewals section is unchanged in
+full, wording and dates.
+
+Noted for the future, not as a challenge to the decision: the 10/31/26 dates appear in no
+system-generated report. CC searched the entire August workbook and every July PDF. If the
+question ever comes back, the rent roll is the place to start.
 
 ### 5. Narrative sections: RESOLVED 2026-09-09
 Emma checked May, June and July and confirmed all three sections read the same across every
