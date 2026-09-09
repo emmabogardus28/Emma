@@ -43,14 +43,32 @@ Executive Summary is where a person explains the numbers.
  = Net Income                    what the owner actually made
 ```
 
-### Which sign is good
+### Variance, positive and negative: the whole thing in one rule
 
-For **income**: Actual minus Budget. Collecting more than budget is positive, and good.
+**Variance** means the difference between what you expected and what happened. That is the whole
+word. You expected $35,502 in rent, you got $21,187, the gap is about $14,300. That gap is the
+variance.
 
-For **expenses**: Budget minus Actual. Spending less than budget is positive, and good.
+There is exactly one rule to remember:
 
-So **a positive number is always good news** and **a number in parentheses is always bad news**,
-whichever row you are on. Parentheses mean "this hurt the owner."
+> ## Positive is good news. Parentheses are bad news.
+
+Every row. Both columns. If you see `(14,315)` something went wrong. If you see `139` something
+went right.
+
+**You do not have to work out whether more is good or less is good on each line.** The spreadsheet
+already handled that. Your job is reading the sign, not calculating it.
+
+For the curious, here is why it needs handling at all. For rent, *more* is good. For expenses,
+*less* is good. Two opposite ideas. So the sheet subtracts in opposite directions:
+
+| | Formula | Example |
+|---|---|---|
+| Income | Actual − Budget | Collected 21,187, expected 35,502, so **(14,315)**, bad |
+| Expenses | Budget − Actual | Budgeted 11,728, spent 13,068, so **(1,340)**, bad |
+
+Both came out negative. Both are bad. The formula flips so the *meaning* does not. That awkward
+math exists precisely so you never have to think about it.
 
 ---
 
@@ -294,7 +312,26 @@ Offset by:
 -$2.6K Arizona Trim Clinic - Not budgeted (NEW TT)
 ```
 
-### Why "offset by" matters
+### What "offset" actually means, the grocery version
+
+Say you budget $500 for groceries and spend $560. You overspent by $60.
+
+Now look inside that $60. Meat ran $100 over. Produce came in $40 under.
+
+```
+  meat        +100  over
+  produce      -40  under      <- this offsets
+  ──────────────────
+  net           60  over
+```
+
+The produce **offset** part of the meat. If someone asked, you would say: *"I am $60 over, mostly
+meat, offset by coming in under on produce."*
+
+That is exactly what "Offset by" means in the report. Same idea, bigger numbers, other people's
+money.
+
+### Why it matters here
 
 Without AZ Trim Clinic, August would have missed budget by about $17K. They are a new tenant who
 moved into Suite 102B in June, after the budget was written, so every dollar they pay is money
@@ -371,6 +408,15 @@ All of these actually happened on the first run:
   in July.
 - **A tab dated a year stale.** The COI tab still said August 2025.
 - **A short package.** August arrived with 10 files instead of 24. Count before you start.
+- **One variance cell subtracts the wrong way round.** On the Operating Expenses row, the MTD
+  variance (`D13`) correctly uses Budget minus Actual, but the YTD variance (`H13`) uses Actual
+  minus Budget. The two expense rows right below it, Owner Expense and Interest Expense, both do
+  it correctly. So on the July report a $40,527 overspend for the year showed as **positive**
+  $40,527, reading like good news.
+
+  **If that line ever seems to break the "positive is good" rule, the rule is fine and the cell is
+  wrong.** Raised 2026-09-09, not yet decided. It affects Athena's standard template, so it is not
+  a Bell Medical question, it is a whole company question.
 
 None of this means anyone is careless. Reports get built from last month's copy and small things
 ride along. Catching them is the job.
