@@ -1,145 +1,148 @@
-# Bell Medical, August 2026 Executive Summary, review notes
+# Bell Medical, August 2026 Executive Summary
 
-**Draft file:** `2026-09-08-BMC-august-2026-executive-summary.xlsx`
-**Prepared:** 2026-09-08 by CC
-**Status:** DRAFT. Not sent. Owner facing, so nothing goes out until Emma reviews.
-
----
-
-## What I did
-
-Copied the July workbook and patched it in place, so all 14 embedded photos, the styles, print
-areas and formulas are untouched. Every figure in the financial table was pulled programmatically
-out of the August Comparative Income Statement, not retyped, so there is no transcription risk.
-
-I checked the arithmetic two ways and it ties out, MTD and YTD:
-- Total Income minus Total Operating Expenses equals Gross Cash Flow
-- Gross Cash Flow minus Owner Expenses minus Interest Expense equals Net Income
+**File:** `2026-09-08-BMC-august-2026-executive-summary.xlsx`
+**Built:** 2026-09-08 by CC. Finalised 2026-09-09 with Emma's decisions.
+**Status:** COMPLETE, awaiting Emma's review and send. Owner facing, so CC does not send it.
 
 ---
 
-## Where every number came from
+## The report at a glance
 
-Source for the whole financial table: the `IS` tab inside
-`Bell Medical Monthly Schedules 08.26.xlsx`, which is the Comparative Income Statement for
-entity 802, PARAGON PROPERTIES GROUP LLC, period thru 8/31/2026, generated 9/7/2026 4:38 PM.
+| | MTD actual | MTD budget | Variance | YTD actual | YTD budget | Variance |
+|---|---|---|---|---|---|---|
+| Total Income | 21,186.88 | 35,502 | (14,315.12) | 163,909.73 | 220,747 | (56,837.27) |
+| Total Operating Expenses | 13,067.63 | 11,728 | (1,339.63) | 132,475.76 | 90,609 | see note |
+| Gross Cash Flow | 8,119.25 | 23,774 | (15,654.75) | 31,433.97 | 130,138 | (98,704.03) |
+| Total Owners Expense | 1,672.74 | 1,034 | (638.74) | 32,691.11 | 6,430 | (26,261.11) |
+| Total Interest Expense | 4,368.22 | 4,508 | 139.78 | 34,556.98 | 35,642 | 1,085.02 |
+| Net Income | 2,078.29 | 18,232 | (16,153.71) | (35,814.12) | 88,066 | (123,880.12) |
 
-| Executive Summary line | IS tab row | MTD actual | YTD actual |
-|---|---|---|---|
-| Total Income | row 23, TOTAL INCOME | 21,186.88 | 163,909.73 |
-| Total Operating Expenses | row 54, TOTAL COMMON AREA EXPENSE | 13,067.63 | 132,475.76 |
-| Gross Cash Flow | row 56, GROSS CASH FLOW | 8,119.25 | 31,433.97 |
-| Total Owners Expense | row 63, TOTAL OWNER EXPENSES | 1,672.74 | 32,691.11 |
-| Total Interest Expense | row 69, TOTAL INTEREST EXPENSE | 4,368.22 | 34,556.98 |
-| Net Income | row 76, NET INCOME | 2,078.29 | (35,814.12) |
+Arithmetic verified both directions, MTD and YTD:
+income minus operating expenses equals gross cash flow; gross cash flow minus owner expenses
+minus interest equals net income.
 
-Other sources:
-- **Income variance commentary** (who paid what and why): `Variance` tab of
-  `802 Bell Medical - 08.26.xlsx`, August column, plus the YTD column. The wording follows the
-  comments Athena already had in that tab.
-- **Delinquency $10,100.71**: `AGED REPORT.pdf`, ARIZONA SPORTS AND SPINE PHYSICIANS Total,
-  period 08/26, run 9/7/2026 4:44 PM. July was $8,400.96, so the balance grew $1,699.75.
-- **Payment of $3,448.43 on 8/6/2026**: `AGED REPORT.pdf`, Last Payment line.
-- **Expense drivers**: individual GL rows on the same IS tab.
+Tenant delinquency: **AZ Sports and Spine, $10,100.71**, up from $8,400.96 in July.
 
 ---
 
-## Eight things that need your eyes
+## How it was built
 
-### 1. The August numbers are not final
-The income statement carries this warning in its own header:
+The July workbook was copied and its sheet XML patched in place, so all 14 embedded photos, the
+styles, print areas and formulas survive untouched. Opening this file with a spreadsheet library
+and re-saving destroys 99.7% of it, so that route was avoided (see `WORKFLOW.md`).
 
-> "Report includes an open period. Entries are not final."
+Every figure in the financial table was pulled programmatically from the August Comparative
+Income Statement. Nothing was retyped by hand.
 
-If accounting is still posting to August, these figures will move. Worth confirming the period is
-closed before this goes to Paragon.
+### Where every number came from
 
-### 2. Square Feet says 51,159 and I cannot source it
-That figure appears **nowhere** in any Athena report for July or August. I searched every PDF and
-every spreadsheet. It only exists inside the Executive Summary workbook itself, hand typed and
-copied across six tabs.
+The financial table comes from the **`IS` tab** inside
+`Bell Medical Monthly Schedules 08.26.xlsx`. That tab is the Comparative Income Statement for
+entity 802, PARAGON PROPERTIES GROUP LLC, thru 8/31/2026, generated 9/7/2026 4:38 PM. The
+standalone PDF was missing from the August package.
 
-The August rent roll says the property is **12,476 total square feet** across 6 units.
+| Report line | IS tab row |
+|---|---|
+| Total Income | row 23, TOTAL INCOME |
+| Total Operating Expenses | row 54, TOTAL COMMON AREA EXPENSE |
+| Gross Cash Flow | row 56, GROSS CASH FLOW |
+| Total Owners Expense | row 63, TOTAL OWNER EXPENSES |
+| Total Interest Expense | row 69, TOTAL INTEREST EXPENSE |
+| Net Income | row 76, NET INCOME |
 
-I left 51,159 in place rather than change a number I cannot verify. **Your call.**
+- **Income variance commentary**: `Variance` tab of `802 Bell Medical - 08.26.xlsx`, August and
+  YTD columns. Wording follows the per tenant comments Athena had already written there.
+- **Expense drivers**: individual GL rows on the IS tab.
+- **Delinquency $10,100.71 and the $3,448.43 payment on 8/6/2026**: `AGED REPORT.pdf`, period
+  08/26, run 9/7/2026 4:44 PM.
 
-### 3. % Leased says 61.14% and I cannot source that either
-Same story. Not in any source report.
+---
 
-The August rent roll says **69.20% occupied** (8,633 of 12,476 sq ft, 3 of 6 units), with 30.80%
-vacant. Suites 100B (726), 101B (922) and 103B (2,195) are the vacancies.
+## Emma's decisions, 2026-09-09
 
-For what it is worth, 61.14% is close to what occupancy would have been *before* AZ Trim Clinic
-took Suite 102B in June 2026. It may simply be stale. I left it as is. **Your call.**
-
-### 4. The lease expiration dates conflict with the rent roll
-The July Executive Summary renewals section says:
-
-| Tenant | July summary says | Rent roll says |
-|---|---|---|
-| OMBI | Expiration 10/31/26 | **3/31/2027** |
-| AZ Sports & Spine | Expiration 10/31/26 | **3/15/2027** |
-
-Both the July and the August rent rolls agree on 3/31/2027 and 3/15/2027, and they are generated
-straight out of ATHENA. The 10/31/26 dates are hand typed into the summary.
-
-These are lease dates on an owner report, so I did not change them on my own.
-
-**DECIDED 2026-09-09 by Emma: keep 10/31/26 on the report.** CC raised the conflict twice with the
-evidence above; Emma confirmed the dates stay as written. The Renewals section is unchanged in
-full, wording and dates.
-
-Noted for the future, not as a challenge to the decision: the 10/31/26 dates appear in no
-system-generated report. CC searched the entire August workbook and every July PDF. If the
-question ever comes back, the rent roll is the place to start.
-
-### 5. Narrative sections: RESOLVED 2026-09-09
-Emma checked May, June and July and confirmed all three sections read the same across every
-month. Nothing moved in August. Renewals, Property Highlights and Capital Projects carry forward
-unchanged, deliberately, not by oversight. OMBI is exercising their option to renew. The asphalt
-sealcoat did happen in March.
-
-Operational Issues also carries forward. It still describes the US Corps Contracting courtyard
-job that closed in March; worth retiring at some point but not this month.
-
-### 6. The file you uploaded as the August summary is actually July's
-`08.26/802 - 08.26 Executive Summary.xlsx` is **byte for byte identical** to the July file, same
-MD5 checksum. It was renamed, not updated, and still reads "July 2026" inside with July's numbers.
-My draft replaces it. Your original is untouched.
-
-Same thing with `08.26/00.Title Page - 07.26 -1.pdf`, that is July's title page sitting in the
-August folder.
-
-### 7. August is missing most of the supporting reports July had
-July had 24 files. August has 10. Missing from August:
-
-Comparative Income Statement (PDF), Budget Forecast, Balance Sheet, Standard Income Statement,
-Trial Balance, General Ledger, Cash Detail, Check Register, Bank Reconciliation, Rent Roll with
-Lease Options, the JE BACKUP folder, and the numbered title page.
-
-I got the income statement out of the Monthly Schedules workbook instead, so the summary is
-complete. But if the full bound package needs assembling the way July's was, those are the gaps.
-
-### 8. Whose name goes on it: RESOLVED 2026-09-09
-Danielle Cebrero stays as Property Manager. Emma Bogardus replaces Jaie Benson in the assistant
-slot on all six tabs.
-
-The one loose thread: those slots are **labelled** "Assistant Property Manager" and Emma's title
-is Property Coordinator. The label was not changed, only the name. Worth confirming, since this
-states a title on an owner-facing document.
+| Item | Decision |
+|---|---|
+| Renewals, Property Highlights, Capital Projects | **Carry forward unchanged.** Emma checked May, June and July; all three read the same every month. Nothing moved in August. |
+| OMBI renewal | Tenant is exercising their option to renew. Wording stands. |
+| Asphalt sealcoat | Did happen in March. Wording stands. |
+| Lease expirations | **Keep 10/31/26** for both tenants. See the note below. |
+| Square Feet | **Keep 51,159.** See the note below. |
+| % Leased | **Keep 61.14%.** See the note below. |
+| Property Manager | Danielle Cebrero, retained. |
+| Assistant slot | **Emma Bogardus**, replacing Jaie Benson, on all six tabs. |
+| That slot's label | Changed from "Assistant Property Manager" to **"Property Coordinator"** on all six tabs. |
 
 Jaie Benson's name deliberately remains in the Operational Issues paragraph, which records a
-meeting she attended on January 19, 2026. That is history, not a name slot.
+meeting she attended on 19 January 2026. That is history, not a name slot.
 
-One more small thing: the **COI Tab** header reads "August 2025", a year stale. It was already
-wrong in the July file so I left it alone rather than guess whether that tab is still used.
+### Three figures CC could not source
 
----
+Raised, discussed, and decided to leave as they are. Recorded here so the reasoning is not lost,
+not to reopen the decision.
 
-## Two small wording fixes I made
+**Lease expirations.** The report says both OMBI and AZ Sports & Spine expire 10/31/26. Both the
+July and August rent rolls, generated from ATHENA, say **3/31/2027** and **3/15/2027**. CC
+searched the entire August workbook and every July PDF: **10/31/26 appears in no
+system-generated report at all.** The rent roll also shows OMBI's option starting 4/1/2027, the
+day after its stated expiry, which is internally consistent.
 
-Both were in text going to an owner:
+**Square Feet, 51,159.** Appears in no Athena report for either month. It exists only inside the
+Executive Summary workbook, hand typed across six tabs. The August rent roll says **12,476 total
+square feet** across 6 units.
+
+**% Leased, 61.14%.** Same. The August rent roll says **69.20% occupied**, 8,633 of 12,476 sq ft,
+3 of 6 units. Vacant suites are 100B (726), 101B (922) and 103B (2,195). For context, 61.14% is
+roughly what occupancy was *before* AZ Trim Clinic took Suite 102B in June 2026.
+
+If any of these come up later, the rent roll is where to start.
+
+### Two wording fixes CC made
+
+Both in text going to an owner:
 - "The are paying" corrected to "They are paying"
 - "partial payments.Tenant indicates" given its missing space
 
-Tell me if you would rather I leave the original wording exactly as it was.
+---
+
+## Still open, not blocking this report
+
+**1. The August package is missing 14 files.** July had 24, August has 10. Missing: the
+Comparative Income Statement PDF, Budget Forecast, Balance Sheet, Standard Income Statement,
+Trial Balance, General Ledger, Cash Detail, Check Register, Bank Reconciliation, Rent Roll with
+Lease Options, the JE BACKUP folder and the numbered title page.
+
+The Executive Summary is complete without them, but the **bound package cannot be assembled**
+the way July's was. Worth asking whoever runs the exports to re-run August, and asking why 14
+files dropped off.
+
+**2. "Report includes an open period. Entries are not final."** The August income statement says
+this. So did July's, and July's report went out anyway, so it is probably boilerplate on every
+Athena export. Worth one question to accounting sometime.
+
+**3. Cell `H13` subtracts the wrong way round.** The YTD Operating Expenses variance uses the
+income convention (Actual minus Budget) instead of the expense one, so the year's **$41,867
+overspend displays as positive $41,867**, reading like good news. The MTD cell beside it, and both
+other expense rows, do it correctly. July's report showed a $40,527 overspend as +40,527 for the
+same reason.
+
+Left untouched. This is Athena's standard template, so it affects every property, not just Bell
+Medical. Not Emma's call alone.
+
+**4. Old template debris in the Monthly Schedules workbook.** The `Stats Page` tab is a
+statistical analysis for a property called **Bayside Center, twelve months ended June 30, 2010**.
+The `Min Rent Plan` and `Min Rent Forecast` tabs are headed **"MINIMUM RENT VARIANCE REPORT
+2009/2010"** and carry square footage (13,256 total, 12,056 occupied) that matches neither the
+rent roll nor the Executive Summary. None of it feeds the report. It is sixteen year old residue
+from whatever file this workbook was originally built from.
+
+**5. The `COI Tab` header reads "August 2025",** a year stale. It was already wrong in July's
+file, so it was left alone rather than guess whether that tab is still in use.
+
+---
+
+## Before it goes out
+
+- [ ] Emma reviews the workbook
+- [ ] Second set of eyes, owner facing work does not leave on one person's say so
+- [ ] Save as PDF
+- [ ] Assemble the bound package, blocked on the 14 missing files
