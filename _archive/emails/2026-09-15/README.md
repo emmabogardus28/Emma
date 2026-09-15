@@ -59,4 +59,16 @@ Eleven cells in the Comments column read "Tenant responsibility.  Tenant will be
 ## Two gaps
 
 1. **Manny's comments are not in this email.** Mike asked for "comments from Stathi and Manny." The only reply in the chain is Stathi's, and the only markup attached is Stathi's one scanned page. Manuel Martinez (manuel.martinez@svn.com) and gogin@svn.com were both on Mike's original, but neither reply is here.
-2. **The attached spreadsheet is not the same as the PDF Mike circulated.** In `Copy of PREI_Deficiencies_75-5819_Alii_Dr.xlsx`, the Notes column on the `Deficiencies` tab (column D) is completely empty, all 33 rows. In `260911 Athena - REI Deficiencies List.pdf`, pages 1 to 3, that same column is full of Athena's responses ("Unfortunately, the inspector did not realize that we were entering the Croc Shop before they were open for business...", "We are finalizing bids for this now.", and about thirty more). The attached workbook is missing them. Nothing was reconstructed from the PDF; Mike should send the file those notes live in.
+2. **The attached spreadsheet was not the same as the PDF Mike circulated.** In `Copy of PREI_Deficiencies_75-5819_Alii_Dr.xlsx`, the Notes column on the `Deficiencies` tab (column D) was completely empty, all 26 data rows. In `260911 Athena - REI Deficiencies List.pdf`, pages 1 to 3, that same column carries Athena's responses in red. Emma asked for those to be pulled across, so they were. See below.
+
+## Rebuilding the Deficiencies Notes column
+
+The red text in `260911 Athena - REI Deficiencies List.pdf` is Athena's response column. It was pulled out and written into column D of the `Deficiencies` tab. How it was done, so it can be checked:
+
+- Only text in the PDF's red (RGB ff1418) was taken. Every red block in the file sits in the Notes column; nothing red appears anywhere else, and no block mixes red with black.
+- Each red block was assigned to a row using the table's own horizontal grid lines, not by eye. All 26 rows that carry a note matched a section number in column B of the workbook, in both directions, with nothing left over on either side.
+- The line breaks in the PDF are Excel's word wrap, not typed breaks. That is visible where "currently" wraps as "current" / "ly" in section 7.3. Wrapped lines were rejoined into flowing text so Excel re-wraps them itself. The one genuine blank line, in the 3.2.3 note, was kept.
+- Where a row carried more than one note (3.2.8.1, 3.3.2, 3.3.4, 3.4.1.1, 7.3), they were stacked in the one cell in top-to-bottom order with a blank line between, matching the PDF.
+- No wording was changed, including "Contractor has been notified and waiting for schedule to complete the work" and "This is all tenant related equipment", which have no closing period in the original.
+
+All 26 were read back and checked line by line against the rendered pages.

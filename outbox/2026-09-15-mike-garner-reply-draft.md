@@ -15,7 +15,7 @@ Four things before this goes back out:
 
 1. I only have Stathi's comments. You asked for Stathi and Manny, and Manny's reply is not in the forward. Can you send it?
 
-2. The spreadsheet you attached has an empty Notes column on the Deficiencies tab, all 33 rows. The PDF you sent out on the 11th has all of our responses in that column ("We are finalizing bids for this now," the Croc Shop note, and about thirty more). I did not want to retype those out of a PDF into a document going to counsel, so can you send the file those notes actually live in?
+2. The spreadsheet you attached had an empty Notes column on the Deficiencies tab. I rebuilt it from the red notes in the PDF you sent out on the 11th, all 26 of them, and checked each one against the page it came from. Worth a look before this goes back to Stathi, in case the copy you have on your machine has anything newer in it.
 
 3. Stathi wrote "Need to comment on 3.2.3" at the top. APPENDIX A has no row for 3.2.3, so that one is yours to write.
 
