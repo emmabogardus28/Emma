@@ -24,8 +24,36 @@
 |-------|---------|---------|-------|
 | *(none recorded yet)* | | | |
 
+## Building facts (rent roll)
+- ATHENA rent roll name: **COCONUT GROVE MARKET PLACE**, Bldg ID 165. *(Possibly the formal property name. Emma to confirm before using it outgoing.)*
+- 18 units, 51,058 total sq ft. 17 occupied (48,065 sq ft, 94.14%), 1 vacant: PC1-2, 2,993 sq ft.
+- *Source: `tasks/monthly-reports/inbox/CGR 08.26/02. Rent Roll with Lease Options.pdf`, as of 8/31/2026, run 9/11/2026.*
+- The September 2026 Executive Summary says 50,133 sq ft. That doesn't match the rent roll. Not yet resolved.
+
+## Leases (from the 8/31/2026 rent roll)
+
+| Suite | Tenant (as on rent roll) | Monthly base rent 8/31/2026 | Next base rent change | Lease expires |
+|---|---|---|---|---|
+| A1-AU3 | ISLAND LAVA JAVA | 15,803.54 | 6/1/2027 to 16,258.66 | 5/31/2037 |
+| B5 | TAKA SUSHI | 3,383.10 | 1/1/2027 to 3,501.51 | 12/31/2027 |
+| B6 | KANAKA KAVA | 2,121.80 | 4/1/2027 to 2,185.45 | 3/31/2029 |
+| C7 | GECKO GIRLZ SHAVE ICE SHACK | 2,603.68 | 6/19/2027 to 2,681.79 | 6/18/2030 |
+| C8 | BIG ISLAND RUNNING | 2,703.75 | 11/1/2026 to 2,784.86 | 10/31/2029 |
+| D11-12 | KONA HEAVEN COFFEE | 3,826.90 | 11/1/2026 to 3,941.71 | 8/31/2031 |
+| D9 + D10 | LUCASIE LTD | 7,895.51 | 3/1/2027 to 8,208.41 | 2/29/2028 |
+| DU | FOSTERS KITCHEN | 12,262.80 | 7/1/2027 to 12,630.68 | 6/30/2031 |
+| E-EF-FU | HUMPYS BIG ISLAND ALEHOUSE | 25,000.00 | 9/1/2026 to 20,666.80 | 8/31/2032 |
+| F15-17 | ABC STORE 75 | 24,000.00 | none listed | 12/31/2030 |
+| F16 | GYPSEA GELATO | 2,813.77 | none listed | 5/31/2027 |
+| G | OCEANS SPORTS BAR AND GRILL | 10,049.12 | 3/1/2036 to 7,777,777,777.00 (placeholder, wrong in ATHENA) | 2/28/2044 |
+| H | JACKS DIVE LOCKER | 23,387.29 | 11/6/2026 to 24,264.31 | 9/30/2053 |
+| I | CHONG QING HOT POT | 13,000.00 | 7/1/2028 to 14,625.00 | 6/30/2036 |
+| PC3-4 | KONA GEAR | 6,445.40 | none listed (option 4/1/2029) | 3/31/2029 |
+| PCU1 | LAVERNES | 7,408.00 | 9/1/2027 to 8,148.80 | 8/31/2032 |
+
 ## Lease quirks
-*(none recorded yet)*
+- Humpy's $25,000.00 on 8/31/2026 was the Third Amendment conditional rent, which ran 7/1/2025 to 8/31/2026. Minimum rent resumed 9/1/2026 at $20,666.80. The rent roll also lists an **RRC (Rent Recovery)** line on 10/1/2026 of $62,532.77, plus GET of $2,946.54. Not yet confirmed what that is.
+- Kona Heaven Coffee (Café Kona): rent stays $3,826.90 until Foster's reopens, then goes up 3% (Executive Summary renewal notes). The rent roll schedules that increase for 11/1/2026.
 
 ## The thing to remember
 This is the only property outside Arizona.
