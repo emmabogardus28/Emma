@@ -76,3 +76,7 @@ Source: `CGR 08.26/04. Aged Delinquencies.pdf` (Period 08/26, run 9/11/2026) and
 - **August left off three tenants over $2,500:** Foster's Kitchen $9,311.61, Kona Heaven Coffee $6,958.31, Gecko Girlz $3,103.86 (all current). Emma to decide whether September follows that.
 - **August's Executive Summary rows are in the right order** (expense budget 212,157.91 = TOTAL COMMON AREA EXPENSE budget), which confirms September's are swapped.
 - **August's actuals come from a cash income statement.** August's workbook shows Total Income 397,197.44 and Operating Expenses 193,346.69. The accrual income statement for August shows 357,042.39 and 176,180.68. Budgets match either way. September's workbook currently has accrual figures, so September needs the **cash** income statement to fill in correctly.
+
+## Final call (Emma, 2026-10-16)
+
+Emma: "you can keep them off i guess." Foster's Kitchen ($33,463.58) and Kona Heaven Coffee ($6,958.31) are off the September tab, matching August. The tab now shows 4 tenants: Chong Qing Hot Pot $61,502.13, Humpy's $54,487.39, Laverne's $19,330.39, Lucasie $14,659.08. **Total $149,978.99** (=SUM(B13:B16)). The table above this section is the earlier 6-tenant version.

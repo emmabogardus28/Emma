@@ -118,6 +118,8 @@ Emma reviews, then it becomes a PDF and goes into the bound package
   carried a Humpy's -$39,301.31 that wasn't on August's aged report at all.
 - **Coconut Grove's Executive Summary actuals come from the CASH income statement**, not the accrual one. Budgets are the
   same on both. Ask for the cash version if it isn't in the package.
+- Coconut Grove leaves **Foster's Kitchen** (fire, insurance-paid rent) and **Kona Heaven Coffee** (2024 PYC being waived)
+  off the delinquency tab even when they're over $2,500. Emma confirmed 2026-10-16.
 
 ---
 
