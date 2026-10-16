@@ -27,7 +27,7 @@
 ## Building facts (rent roll)
 - ATHENA rent roll name: **COCONUT GROVE MARKET PLACE**, Bldg ID 165. *(Possibly the formal property name. Emma to confirm before using it outgoing.)*
 - 18 units, 51,058 total sq ft. 17 occupied (48,065 sq ft, 94.14%), 1 vacant: PC1-2, 2,993 sq ft.
-- *Source: `tasks/monthly-reports/inbox/CGR 08.26/02. Rent Roll with Lease Options.pdf`, as of 8/31/2026, run 9/11/2026.*
+- *Source: `tasks/monthly-reports/inbox/CGR 08.26/02. Rent Roll with Lease Options.pdf`, as of 8/31/2026, run 9/11/2026. Same square footage on the 9/30/2026 rent roll in `CGR 09.26/`. Total monthly base rent 9/30/2026: 158,371.46.*
 - The September 2026 Executive Summary says 50,133 sq ft. That doesn't match the rent roll. Not yet resolved.
 
 ## Leases (from the 8/31/2026 rent roll)
@@ -52,7 +52,7 @@
 | PCU1 | LAVERNES | 7,408.00 | 9/1/2027 to 8,148.80 | 8/31/2032 |
 
 ## Lease quirks
-- Humpy's $25,000.00 on 8/31/2026 was the Third Amendment conditional rent, which ran 7/1/2025 to 8/31/2026. Minimum rent resumed 9/1/2026 at $20,666.80. The rent roll also lists an **RRC (Rent Recovery)** line on 10/1/2026 of $62,532.77, plus GET of $2,946.54. Not yet confirmed what that is.
+- Humpy's $25,000.00 on 8/31/2026 was the Third Amendment conditional rent, which ran 7/1/2025 to 8/31/2026. Minimum rent resumed 9/1/2026 at $20,666.80, confirmed on the 9/30/2026 rent roll (next listed change 9/1/2027, still 20,666.80). The 8/31 rent roll listed an **RRC (Rent Recovery)** line on 10/1/2026 of $62,532.77 plus GET of $2,946.54. The same two amounts appear in the August general ledger as prepaid rent reversals, and the line is gone from the 9/30 rent roll. Not yet confirmed what it was.
 - Kona Heaven Coffee (Café Kona): rent stays $3,826.90 until Foster's reopens, then goes up 3% (Executive Summary renewal notes). The rent roll schedules that increase for 11/1/2026.
 
 ## The thing to remember
