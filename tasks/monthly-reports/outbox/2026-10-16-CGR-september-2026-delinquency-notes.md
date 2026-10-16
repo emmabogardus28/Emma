@@ -66,3 +66,13 @@ Everything on the delinquency tab ties:
    CC added up every expense line on the income statement: they total 162,881.50 MTD and 1,243,823.19 YTD, so the income statement is right and the workbook has NOI typed into the expense row. Net income on the income statement also ties to the balance sheet's current retained earnings (158,651.24 YTD).
 
 2. **The variance commentary is August's.** The MTD notes say revenue is *over* budget ("$14K Parking Rent higher than anticipated") and expenses are *under* budget ("$12K Security"). September's income statement shows revenue **under** budget by (61,117.25), with parking (23,333.30) under, and expenses **over** budget by (42,454.59), with security (26,029.85) and food court security (17,569.97) over. The $14K parking and the YTD "$66K Parking" figures match August's income statement (parking +14,202.54 MTD, +65,950.10 YTD).
+
+## Checked against the completed August report (added after Emma sent it)
+
+Source: `CGR 08.26/04. Aged Delinquencies.pdf` (Period 08/26, run 9/11/2026) and `CGR 08.26/165 08.26 Coconut Grove Executive Summary.xlsx`.
+
+- **Method matches.** August's tab used each tenant's net Total line: Lucasie 3,120.13 and Chong Qing 33,287.79 are exactly the Total lines on the August aged report. September does the same.
+- **Humpy's -$39,301.31 was not on the August aged report.** Humpy's doesn't appear on it at all, so they had no balance at 8/31. The -$39,301.31 on August's tab was carried forward from an older month. There is no missing credit, and the question for accounting about it can be dropped.
+- **August left off three tenants over $2,500:** Foster's Kitchen $9,311.61, Kona Heaven Coffee $6,958.31, Gecko Girlz $3,103.86 (all current). Emma to decide whether September follows that.
+- **August's Executive Summary rows are in the right order** (expense budget 212,157.91 = TOTAL COMMON AREA EXPENSE budget), which confirms September's are swapped.
+- **August's actuals come from a cash income statement.** August's workbook shows Total Income 397,197.44 and Operating Expenses 193,346.69. The accrual income statement for August shows 357,042.39 and 176,180.68. Budgets match either way. September's workbook currently has accrual figures, so September needs the **cash** income statement to fill in correctly.

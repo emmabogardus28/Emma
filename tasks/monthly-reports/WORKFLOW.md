@@ -113,6 +113,11 @@ Emma reviews, then it becomes a PDF and goes into the bound package
 - Coconut Grove delinquency tab, first run (09.26): rows 13 onward are tenants, comment merged C:I,
   total row is a SUM formula. August's total skipped a row, so check the SUM range every month.
   Credit balances (prepaid rent) are left off. Watch Humpy's: big credits and deferrals come and go.
+- The delinquency amount is the tenant's net **Total** line on the aged report (charges minus credits), confirmed against
+  August 2026's completed tab. Check every carried-over row still appears on this month's aged report: August's tab
+  carried a Humpy's -$39,301.31 that wasn't on August's aged report at all.
+- **Coconut Grove's Executive Summary actuals come from the CASH income statement**, not the accrual one. Budgets are the
+  same on both. Ask for the cash version if it isn't in the package.
 
 ---
 
