@@ -106,6 +106,13 @@ Emma reviews, then it becomes a PDF and goes into the bound package
   Physicians** (101A, 1,967 sq ft), **Arizona Trim Clinic** (102B, 1,007 sq ft, took occupancy
   6/1/2026). Vacant: 100B (726), 101B (922), 103B (2,195).
 - AZ Sports & Spine is the chronic delinquency. Partial payments, balance climbing.
+- **Coconut Grove is entity 165.** Its workbook has different tabs from Bell Medical (Executive
+  Summary, Tenant Delinquency, COVID 19-Rent Recovery, Tenant COI Tracking, Tenant Maintenance
+  Tracking, Fosters Rebuild Costs). Its delinquency cutoff is **$2,500**, per the tab header, not
+  $2,000. Use whatever the tab header says.
+- Coconut Grove delinquency tab, first run (09.26): rows 13 onward are tenants, comment merged C:I,
+  total row is a SUM formula. August's total skipped a row, so check the SUM range every month.
+  Credit balances (prepaid rent) are left off. Watch Humpy's: big credits and deferrals come and go.
 
 ---
 
