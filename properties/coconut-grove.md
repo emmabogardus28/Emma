@@ -16,7 +16,13 @@
 - Email: *(unknown)*
 
 ## Key contacts
-*(none recorded yet)*
+- **Foster's Kitchen (suite DU): MF Kona, LLC, a Hawaii limited liability company, dba Foster's Kitchen.** Attn: Jeffrey Foster, Phone: (808) 960 6318, P.O. Box 390913, Keauhou, HI 96739, Email: jeff@fosterskitchen.com. *(Source: Temporary License Agreement dated 10/1/2026, Section 20 Notices, p.6, filed in `_archive/coconut-grove/2026-10-22-fosters/`.)*
+- Owner-side notice contact on that license: Coconut Grove Retail XIII, LLC c/o JH Real Estate Partners, Inc., Attn: Stathi G. Marcopulos, COO/General Counsel, 520 Newport Center Drive, Suite 780, Newport Beach, CA 92660, smarcopulos@jhrep.com. Copy to Athena, Attn: Mike Garner, mgarner@athena-pm.com. *(Same section, pp.6 to 7.)*
+- The license agreement calls the center **"Coconut Grove Marketplace"** (Section 1, p.1), which matches the rent roll name. Still worth Emma confirming as the outgoing name.
+
+## Foster's Kitchen
+- Kitchen fire 7/1/2025, closed since (Rebuild Insurance Tracker, Executive Summary A46).
+- Since 10/1/2026 Foster's also has a month-to-month **food truck license** in the common area, $500.00/month, 30 days' notice either side (License Agreement Sections 2 and 3). Separate from the restaurant lease.
 
 ## Vendors
 
